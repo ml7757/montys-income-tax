@@ -20,7 +20,7 @@ html {
 }
 
 header {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/hero.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/hero-index.jpg);
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
@@ -30,8 +30,8 @@ header {
 	position: absolute;
 	width: 1140px;
 	top: 50%;
-	left: 80%;
-	transform: translate(-30%, -50%);
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 h1 {
