@@ -6,18 +6,18 @@ btn_full_link:
 btn_clear: Something else
 btn_clear_link:
 
-svc_overview:
-  title: We're here to help
-  description:
+svcs_overview:
+  title: Services Overview
+  description: Unlike some of the big names in the income tax preparation service industry, ​​Monty's Income Tax staffers are not driven or pushed to complete a fixed number of hourly tax returns. We value the needs of our clients over the pursuit of corporate profitability.
 svc_one:
   title: Canadian Income Tax
-  description: T1 General - T2042 - T2125 - T2200 - T2202 - T776 - T777 - TL2
+  description: T1 - T2042 - T2125 - T2200 - T2202 - T776 - T777 - TL2; general filing, multiple back years, and adjustments.
 svc_two:
   title: U.S.A. Tax Crossover
   description: Ownership or sales of US property over $100,000. 1042-S U.S Social Security Pensions
 svc_three:
   title: Bookkeeping & Payroll
-  description: Home based business full cycle bookkeeping and payroll, including T4 summaries.
+  description: Home based business full cycle bookkeeping and payroll services, including T4 summaries.
 svc_four:
   title: Employee Benefit Plans
-  description: Administration and oversight of Employee Benefit Plans.
+  description: Administration and oversight of Employee Benefit Plans for your company.
