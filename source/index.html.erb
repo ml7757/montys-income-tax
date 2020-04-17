@@ -7,33 +7,4 @@ title: Monty's Income Tax Services
 	<%= partial "partials/hero" %>
 </header>
 
-<section class="services-overview">
-	<div class="row">
-		<h2><%= data.home.svcs_overview.title %></h2>
-		<p class="long-copy">
-			<%= data.home.svcs_overview.description %>
-		</p>
-	</div>
-	<div class="row">
-		<div class="col span-1-of-4 box">
-			<ion-icon name="reader-outline"></ion-icon>
-			<h3><%= data.home.svc_one.title %></h3>
-			<p><%= data.home.svc_one.description %></p>
-		</div>
-		<div class="col span-1-of-4 box">
-			<ion-icon name="star-outline"></ion-icon>
-			<h3><%= data.home.svc_two.title %></h3>
-			<p><%= data.home.svc_two.description %></p>
-		</div>
-		<div class="col span-1-of-4 box">
-			<ion-icon name="calculator-outline"></ion-icon>
-			<h3><%= data.home.svc_three.title %></h3>
-			<p><%= data.home.svc_three.description %></p>
-		</div>
-		<div class="col span-1-of-4 box">
-			<ion-icon name="people-outline"></ion-icon>
-			<h3><%= data.home.svc_four.title %></h3>
-			<p><%= data.home.svc_four.description %></p>
-		</div>
-	</div>
-</section>
+<%= partial "partials/services_overview" %>
