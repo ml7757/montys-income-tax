@@ -1,8 +1,14 @@
 @import 'vendors/grid',
-'vendors/normalize',
-'partials/nav',
-'partials/hero';
+'vendors/normalize';
 
+/*
+base colour: #10ac84
+hover colour: #0c7d60
+*/
+
+/* --------------------------------------------*/
+/* BASIC SETUP */
+/* --------------------------------------------*/
 
 * {
 	margin: 0;
@@ -17,6 +23,10 @@ html {
 	text-rendering: optimizeLegibility;
 }
 
+/* --------------------------------------------*/
+/* REUSABLE COMPONENTS */
+/* --------------------------------------------*/
+
 .row {
 	max-width: 1140px;
 	margin: 0 auto;
@@ -26,6 +36,11 @@ section {
 	padding: 80px 0;
 }
 
+.box {
+	padding: 2%;
+}
+
+/* ----- HEADINGS ------ */
 h1,
 h2,
 h3 {
@@ -52,6 +67,7 @@ h2 {
 h3 {
 	font-size: 110%;
 	margin-bottom: 15px;
+	font-weight: 700;
 }
 
 h2::after {
@@ -64,14 +80,11 @@ h2::after {
 	margin-top: 30px;
 }
 
+/* ----- PARAGRAPHS ------ */
 .long-copy {
 	line-height: 145%;
 	width: 70%;
 	margin-left: 15%;
-}
-
-.box {
-	padding: 2%;
 }
 
 .box p {
@@ -80,6 +93,7 @@ h2::after {
 	text-align: justify;
 }
 
+/* ----- ICONS ------ */
 ion-icon {
 	font-size: 350%;
 	display: block;
@@ -87,9 +101,114 @@ ion-icon {
 	margin-bottom: 10px;
 }
 
+/* ----- LINKS ------ */
+
+/* ----- BUTTONS ------ */
+.btn:link,
+.btn:visited {
+	display: inline-block;
+	padding: 10px 30px;
+	font-weight: 300;
+	text-decoration: none;
+	border-radius: 200px;
+	color: #fff;
+	transition: background-color 0.2s, border 0.2s;
+}
+
+.btn-full:link,
+.btn-full:visited {
+	background-color: #10ac84;
+	border: 1px solid #10ac84;
+	margin-right: 15px;
+}
+
+.btn-transparent:link,
+.btn-transparent:visited {
+	border: 1px solid #10ac84;
+}
+
+.btn:hover,
+.btn:active {
+	background-color: #0c7d60;
+}
+
+.btn-full:hover,
+.btn-full:active {
+	border: 1px solid #0c7d60;
+}
+
+.btn-transparent:hover,
+.btn-transparent:active {
+	border: 1px solid #0c7d60;
+}
+
+/* --------------------------------------------*/
+/* REUSABLE COMPONENTS */
+/* --------------------------------------------*/
 header {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/hero-index.jpg);
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
+}
+
+.hero-text {
+	position: absolute;
+	width: 1140px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.logo-group {
+	float: left;
+}
+
+.logo {
+	height: 100%;
+	width: auto;
+	margin-top: 20px;
+	float: left;
+}
+
+.logo-text {
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+	margin-left: 10px;
+}
+
+.logo-text li {
+	color: #fff;
+	text-decoration: none;
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+
+
+.main-nav {
+	float: right;
+	list-style: none;
+	margin-top: 55px;
+}
+
+.main-nav li {
+	display: inline-block;
+	margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+	padding: 8px 0;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 90%;
+	border-bottom: 2px solid transparent;
+	transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+	border-bottom: 2px solid #10ac84;
 }
