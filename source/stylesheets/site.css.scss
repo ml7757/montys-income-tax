@@ -85,6 +85,7 @@ h2::after {
 	line-height: 145%;
 	width: 70%;
 	margin-left: 15%;
+	text-align: justify;
 }
 
 .box p {
@@ -143,7 +144,7 @@ ion-icon {
 }
 
 /* --------------------------------------------*/
-/* REUSABLE COMPONENTS */
+/* HEADER */
 /* --------------------------------------------*/
 header {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/hero-index.jpg);
@@ -211,4 +212,12 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
 	border-bottom: 2px solid #10ac84;
+}
+
+/* --------------------------------------------*/
+/* SERVICES OVERVIEW */
+/* --------------------------------------------*/
+
+.services-overview .long-copy {
+	margin-bottom: 30px;
 }
