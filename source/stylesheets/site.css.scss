@@ -217,7 +217,52 @@ header {
 /* --------------------------------------------*/
 /* SERVICES OVERVIEW */
 /* --------------------------------------------*/
-
 .services-overview .long-copy {
 	margin-bottom: 30px;
+}
+
+/* --------------------------------------------*/
+/* ADVANTAGES CTA */
+/* --------------------------------------------*/
+.advantages-cta {
+	padding: 0;
+}
+
+.advantages-showcase {
+	list-style: none;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	background: #f6f6f6	;
+	}
+
+.advantages-showcase li {
+	flex: 1;
+	text-align: center;
+}
+
+.advantages-caption h3 {
+	padding: 0 10px;
+}
+
+.advantages-photo {
+	width: 100%;
+	margin: 0;
+	overflow: hidden;
+}
+
+.advantages-photo img {
+	width: 100%;
+	height: auto;
+	transform: scale(1.15);
+}
+
+.advantages-more-info {
+	margin-top: 10px;
+}
+
+.advantages-fine-print {
+	font-weight: 100;
+	font-size: 80%;
+	margin-left: 20px;
 }

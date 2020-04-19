@@ -21,3 +21,10 @@ svc_three:
 svc_four:
   title: Employee Benefit Plans
   description: Administration and oversight of Employee Benefit Plans for your company.
+
+advan_overview:
+  one: Senior and student discounts
+  two: "Pickup service for seniors and those with disabilities*"
+  cta_btn: Contact Us
+  cta: For more information
+  fine_print: "*Available upon request within the districts of Chilliwack and Sardis only."
