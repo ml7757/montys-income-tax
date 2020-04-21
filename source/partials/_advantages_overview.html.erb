@@ -1,5 +1,5 @@
 <section class="advantages-cta">
-	<ul class="advantages-showcase">
+	<ul class="advantages-showcase top">
 		<li>
 			<figure class="advantages-photo">
 				<%= image_tag 'images/hero-index.jpg' %>
@@ -16,7 +16,10 @@
 	</ul>
 	<ul class="advantages-showcase">
 		<li class="advantages-caption">
-			<h3><%= data.home.advan_overview.two %></h3>
+			<h3><%= data.home.advan_overview.two %></h3><br>
+			<div class="advantages-fine-print">
+				<%= data.home.advan_overview.fine_print %>
+			</div>
 		</li>
 		<li>
 			<figure class="advantages-photo">
@@ -24,10 +27,8 @@
 			</figure>
 		</li>
 		<li class="advantages-caption">
-			<%= link_to data.home.advan_overview.cta_btn, "#", class: "btn btn-full" %><h3 class="advantages-more-info"><%= data.home.advan_overview.cta %></h3>
+			<%= link_to data.home.advan_overview.cta_btn, "#", class: "btn btn-full" %>
+			<h3 class="advantages-more-info"><%= data.home.advan_overview.cta %></h3>
 		</li>
 	</ul>
-	<div class="advantages-fine-print">
-		<%= data.home.advan_overview.fine_print %>
-	</div>
 </section>

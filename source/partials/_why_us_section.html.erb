@@ -1,0 +1,35 @@
+<section class="why__section">
+	<div class="why__container">
+		<h2 class="why__heading"><%= data.home.why.heading %></h2>
+		<div class="why__content">
+			<div class="why__reason">
+				<div class="why__numeral">
+					<div class="why__number"><%= data.home.why.num_one %></div>
+				</div>
+				<div class="why__explanation">
+					<p class="why__sub"><%= data.home.why.sub_one %></p>
+					<p class="why__info"><%= data.home.why.info_one %></p>
+				</div>
+			</div>
+			<div class="why__reason">
+				<div class="why__numeral">
+					<div class="why__number"><%= data.home.why.num_two %></div>
+				</div>
+				<div class="why__explanation">
+					<p class="why__sub">Client returns before corporate profitability</p>
+					<p class="why__info"><%= data.home.why.info_two %></p>
+				</div>
+			</div>
+			<div class="why__reason">
+				<div class="why__numeral">
+					<div class="why__number"><%= data.home.why.num_three %></div>
+				</div>
+				<div class="why__explanation">
+					<p class="why__sub"><%= data.home.why.sub_three %></p>
+					<p class="why__info"><%= data.home.why.info_three %></p>
+				</div>
+			</div>
+		</div>
+		<%= link_to data.home.why.btn, "#", class: "btn btn-full why__btn" %>
+	</div>
+</section>

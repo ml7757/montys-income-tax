@@ -27,11 +27,6 @@ html {
 /* REUSABLE COMPONENTS */
 /* --------------------------------------------*/
 
-.row {
-	max-width: 1140px;
-	margin: 0 auto;
-}
-
 section {
 	padding: 80px 0;
 }
@@ -60,7 +55,9 @@ h1 {
 h2 {
 	font-size: 180%;
 	word-spacing: 2px;
-	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	margin-bottom: 30px;
 }
 
@@ -71,12 +68,10 @@ h3 {
 }
 
 h2::after {
-	display: block;
 	height: 2px;
 	background-color: #10ac84;
 	content: " ";
 	width: 100px;
-	margin: 0 auto;
 	margin-top: 30px;
 }
 
@@ -233,8 +228,8 @@ header {
 	width: 100%;
 	display: flex;
 	align-items: center;
-	background: #f6f6f6	;
-	}
+	background: #f4f4f4;
+}
 
 .advantages-showcase li {
 	flex: 1;
@@ -265,4 +260,57 @@ header {
 	font-weight: 100;
 	font-size: 80%;
 	margin-left: 20px;
+}
+
+/* --------------------------------------------*/
+/* WHY US SECTION */
+/* --------------------------------------------*/
+.why__section {
+	background-image: url(../images/why-us.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.why__container {
+	display: flex;
+	flex-direction: column;
+	margin-left: 35%;
+	margin-right: 5%;
+}
+
+.why__heading {
+	align-self: center;
+}
+
+.why__content {
+	margin-top: 30px;
+	width: 50%;
+	align-self: center;
+}
+
+.why__reason {
+	display: flex;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+.why__number {
+	color: #10ac84;
+	border: 2px solid #10ac84;
+	border-radius: 50%;
+	height: 55px;
+	width: 55px;
+	text-align: center;
+	padding: 5px;
+	font-size: 150%;
+	margin-right: 25px;
+}
+
+.why__info {
+	font-weight: 100;
+	margin-top: 10px;
+}
+
+.why__btn {
+	align-self: center;
 }
