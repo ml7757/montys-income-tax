@@ -6,21 +6,17 @@ btn_full_link:
 btn_clear: Something else
 btn_clear_link:
 
-svcs_overview:
-  title: Services Overview
-  description: Unlike some of the big names in the income tax preparation service industry, ​​Monty's Income Tax staffers are not driven or pushed to complete a fixed number of hourly tax returns. We value the needs of our clients over the pursuit of corporate profitability.
-svc_one:
-  title: Canadian Income Tax
-  description: T1 - T2042 - T2125 - T2200 - T2202 - T776 - T777 - TL2; general filing, multiple back years, and adjustments.
-svc_two:
-  title: U.S.A. Tax Crossover
-  description: Ownership or sales of US property over $100,000. 1042-S U.S Social Security Pensions
-svc_three:
-  title: Bookkeeping & Payroll
-  description: Home based business full cycle bookkeeping and payroll services, including T4 summaries.
-svc_four:
-  title: Employee Benefit Plans
-  description: Administration and oversight of Employee Benefit Plans for your company.
+svcs:
+  heading: Services Overview
+  intro: "Monty's is an experienced independent income tax preparation service, with a team of professionals standing by to assist you or your company in any of the following areas:"
+  title_one: Canadian Income Tax
+  title_two: U.S.A. Tax Crossover
+  title_three: Bookkeeping & Payroll
+  title_four: Employee Benefit Plans
+  desc_one: T1 - T2042 - T2125 - T2200 - T2202 - T776 - T777 - TL2, general filing, multiple back years, and adjustments.
+  desc_two: Ownership or sales of US property over $100,000, and 1042-S U.S Social Security Pensions.
+  desc_three: Home based business full cycle bookkeeping and payroll services, including T4 summaries.
+  desc_four: Administration and oversight of Employee Benefit Plans for your company.
 
 advan_overview:
   one: Senior and student discounts
