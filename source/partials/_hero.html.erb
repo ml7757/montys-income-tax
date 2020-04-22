@@ -1,5 +1,9 @@
-<div class="hero-text">
-	<h1><%= data.home.hero %><br><%= data.home.hero_break %></h1>
-	<%= link_to data.home.btn_full, "#", class: "btn btn-full" %>
-	<%= link_to data.home.btn_clear, "#", class: "btn btn-transparent" %>
+<div class="hero__section">
+	<div class="hero__group">
+		<h1><%= data.home.hero.title %><br><%= data.home.hero.break %></h1>
+		<div class="hero__btns">
+			<%= link_to data.home.hero.btn_full, "#", class: "btn btn-full" %>
+			<%= link_to data.home.hero.btn_clear, "#", class: "btn btn-transparent" %>
+		</div>
+	</div>
 </div>
