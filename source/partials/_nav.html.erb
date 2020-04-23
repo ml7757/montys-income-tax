@@ -1,17 +1,17 @@
-<nav>
-	<div class="row">
-		<% link_to "#", class: "logo-group" do %>
-			<%= image_tag "images/logo.png", alt: "Monty's Income Tax Services logo", class: "logo" %>
-			<ul class="logo-text">
-				<li>Monty's</li>
-				<li>Income Tax</li>
-				<li>Services</li>
+<nav class="nav__bar">
+	<div class="nav__logo">
+		<% link_to "#", class: "logo__group" do %>
+			<%= image_tag "images/logo.png", alt: "Monty's Income Tax Services logo", class: "logo__logo" %>
+			<ul class="logo__text">
+				<li><%= data.home.nav.logo_text_1 %></li>
+				<li><%= data.home.nav.logo_text_2 %></li>
+				<li><%= data.home.nav.logo_text_3 %></li>
 			</ul>
 		<% end %>
-		<ul class="main-nav">
-			<li><%= link_to "Our Services", "#" %></li>
-			<li><%= link_to "About Us", "#" %></li>
-			<li><%= link_to "Contact", "#" %></li>
-		</ul>
 	</div>
+	<ul class="nav__items">
+		<li><%= link_to data.home.nav.link_1, "#" %></li>
+		<li><%= link_to data.home.nav.link_2, "#" %></li>
+		<li><%= link_to data.home.nav.link_3, "#" %></li>
+	</ul>
 </nav>

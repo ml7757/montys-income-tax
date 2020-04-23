@@ -1,3 +1,11 @@
+nav:
+  logo_text_1: Monty's
+  logo_text_2: Income Tax
+  logo_text_3: Services
+  link_1: Home
+  link_2: About Us
+  link_3: Contact
+
 hero:
   title: Our best results on your tax return,
   break_text: at fair prices
