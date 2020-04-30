@@ -313,18 +313,6 @@ header {
 	margin-bottom: 0;
 }
 
-.why__number {
-	color: #10ac84;
-	border: 2px solid #10ac84;
-	border-radius: 50%;
-	height: 55px;
-	width: 55px;
-	text-align: center;
-	padding: 5px;
-	font-size: 150%;
-	margin-right: 25px;
-}
-
 .why__info {
 	font-weight: 100;
 	margin-top: 10px;
@@ -332,4 +320,70 @@ header {
 
 .why__btn {
 	align-self: center;
+}
+
+/* --------------------------------------------*/
+/* YOUR PATH SECTION */
+/* --------------------------------------------*/
+
+.path__container--top,
+.path__container--bottom {
+	display: flex;
+	margin: 0 5%;
+}
+
+.path__container--bottom {
+	flex-direction: row-reverse;
+}
+
+.path__group--one,
+.path__group--two,
+.path__group--three,
+.path__group--four {
+	display: flex;
+	flex: 0 0 50%;
+	justify-content: center;
+	align-items: center;
+	background-size: contain;
+	background-position: 60%;
+	background-repeat: no-repeat;
+	margin-top: 30px;
+}
+
+.path__group--one {
+	background-image: url(../images/call.png);
+}
+
+.path__group--two {
+	background-image: url(../images/documents.png);
+}
+
+.path__group--three {
+	background-image: url(../images/clipboard.png);
+}
+
+.path__group--four {
+	background-image: url(../images/wine.png);
+}
+
+.path__number {
+	color: #10ac84;
+	border: 2px solid #10ac84;
+	border-radius: 50%;
+	height: 110px;
+	width: 110px;
+	text-align: center;
+	padding: 5px;
+	font-size: 375%;
+	margin-right: 4%;
+}
+
+.path__content {
+	flex: 0 0 50%;
+}
+
+.path__content a {
+	text-decoration: none;
+	color: #10ac84;
+	font-weight: 700;
 }
