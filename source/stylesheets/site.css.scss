@@ -323,23 +323,23 @@ header {
 }
 
 /* --------------------------------------------*/
-/* YOUR PATH SECTION */
+/* YOUR JOURNEY SECTION */
 /* --------------------------------------------*/
 
-.path__container--top,
-.path__container--bottom {
+.journey__container--top,
+.journey__container--bottom {
 	display: flex;
 	margin: 0 5%;
 }
 
-.path__container--bottom {
+.journey__container--bottom {
 	flex-direction: row-reverse;
 }
 
-.path__group--one,
-.path__group--two,
-.path__group--three,
-.path__group--four {
+.journey__group--one,
+.journey__group--two,
+.journey__group--three,
+.journey__group--four {
 	display: flex;
 	flex: 0 0 50%;
 	justify-content: center;
@@ -350,23 +350,23 @@ header {
 	margin-top: 30px;
 }
 
-.path__group--one {
+.journey__group--one {
 	background-image: url(../images/call.png);
 }
 
-.path__group--two {
+.journey__group--two {
 	background-image: url(../images/documents.png);
 }
 
-.path__group--three {
+.journey__group--three {
 	background-image: url(../images/clipboard.png);
 }
 
-.path__group--four {
+.journey__group--four {
 	background-image: url(../images/wine.png);
 }
 
-.path__number {
+.journey__number {
 	color: #10ac84;
 	border: 2px solid #10ac84;
 	border-radius: 50%;
@@ -378,11 +378,11 @@ header {
 	margin-right: 4%;
 }
 
-.path__content {
+.journey__content {
 	flex: 0 0 50%;
 }
 
-.path__content a {
+.journey__content a {
 	text-decoration: none;
 	color: #10ac84;
 	font-weight: 700;

@@ -26,18 +26,8 @@ svcs:
   desc_three: Home based business full cycle bookkeeping and payroll services, including T4 summaries.
   desc_four: Administration and oversight of Employee Benefit Plans for your company.
 
-advan_overview:
-  one: Senior and student discounts
-  two: "Pickup service for seniors and those with disabilities*"
-  cta_btn: Contact Us
-  cta: For more information
-  fine_print: "*Available upon request within the districts of Chilliwack and Sardis only."
-
 why:
   heading: Why Trust Monty's?
-  num_one: "1"
-  num_two: "2"
-  num_three: "3"
   sub_one: 35 years of collective experience
   sub_two: Client returns before corporate profitability
   sub_three: Support whenever you need it
@@ -45,3 +35,22 @@ why:
   info_two: The potential of every tax return is maximized against the latest benefits and tax considerations, regardless of time and effort.
   info_three: Help isn't bound to the tax season only. Baffled by wordy documentation? Upcoming audit with the CRA? We can be there to assist you.
   btn: More About Us
+
+journey:
+  heading: Your Journey to Maximized Returns
+  link_label: Contact us
+  num_one: "1"
+  num_two: "2"
+  num_three: "3"
+  num_four: "4"
+  content_one: " by phone or through our website and we will get back to you."
+  content_two: Drop off your tax info at our location and we will review it together.
+  content_three: Once completed, we call you in for the final review and signatures before efiling.
+  content_four: Sit back and relax knowing your return has been filed with you at the forefront.
+
+advan_overview:
+  one: Senior and student discounts
+  two: "Pickup service for seniors and those with disabilities*"
+  cta_btn: Contact Us
+  cta: For more information
+  fine_print: "*Available upon request within the districts of Chilliwack and Sardis only."
