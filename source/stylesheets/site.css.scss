@@ -64,7 +64,6 @@ h2 {
 h3 {
 	font-size: 110%;
 	margin-bottom: 15px;
-	font-weight: 700;
 }
 
 h2::after {
@@ -230,6 +229,10 @@ header {
 	width: 20%;
 }
 
+.svcs__offer p {
+	font-weight: 100;
+}
+
 /* --------------------------------------------*/
 /* WHY US SECTION */
 /* --------------------------------------------*/
@@ -382,7 +385,6 @@ header {
 
 .ben__list h3 {
 	margin-bottom: 30px;
-	font-weight: 300;
 }
 
 .ben__list a {
