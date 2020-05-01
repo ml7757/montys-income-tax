@@ -231,52 +231,6 @@ header {
 }
 
 /* --------------------------------------------*/
-/* ADVANTAGES CTA */
-/* --------------------------------------------*/
-.advantages-cta {
-	padding: 0;
-}
-
-.advantages-showcase {
-	list-style: none;
-	width: 100%;
-	display: flex;
-	align-items: center;
-	background: #f4f4f4;
-}
-
-.advantages-showcase li {
-	flex: 1;
-	text-align: center;
-}
-
-.advantages-caption h3 {
-	padding: 0 10px;
-}
-
-.advantages-photo {
-	width: 100%;
-	margin: 0;
-	overflow: hidden;
-}
-
-.advantages-photo img {
-	width: 100%;
-	height: auto;
-	transform: scale(1.15);
-}
-
-.advantages-more-info {
-	margin-top: 10px;
-}
-
-.advantages-fine-print {
-	font-weight: 100;
-	font-size: 80%;
-	margin-left: 20px;
-}
-
-/* --------------------------------------------*/
 /* WHY US SECTION */
 /* --------------------------------------------*/
 .why__section {
@@ -386,4 +340,56 @@ header {
 	text-decoration: none;
 	color: #10ac84;
 	font-weight: 700;
+}
+
+/* --------------------------------------------*/
+/* BENEFITS SECTION */
+/* --------------------------------------------*/
+.ben__section {
+	padding: 0;
+}
+
+.ben__container {
+	display: flex;
+}
+
+.ben__photo {
+	flex: 0 0 40%;
+}
+
+.ben__photo img {
+	max-width: 100%;
+}
+
+.ben__content {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex: 1;
+	background-color: #f4f4f4;
+}
+
+.ben__heading {
+	margin-top: 30px;
+}
+
+.ben__list {
+	display: flex;
+	flex-direction: column;
+	flex: 0 0 60%;
+	align-items: center;
+}
+
+.ben__list h3 {
+	margin-bottom: 30px;
+	font-weight: 300;
+}
+
+.ben__list a {
+	margin-top: 30px;
+}
+
+.ben__print {
+	font-weight: 100;
+	font-size: 80%;
 }
