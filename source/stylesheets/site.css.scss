@@ -207,6 +207,58 @@ header {
 }
 
 /* --------------------------------------------*/
+/* FOOTER */
+/* --------------------------------------------*/
+
+	footer {
+		display: flex;
+		justify-content: space-between;
+		background-color: #333;
+		padding: 30px;
+	}
+
+	.footer__text {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	.footer__nav {
+		display: flex;
+		list-style: none;
+	}
+
+	.footer__nav li {
+		margin-right: 30px;
+	}
+
+	.footer__nav li a:link,
+	.footer__nav li a:visited {
+		text-decoration: none;
+		border: 0;
+		color: #888;
+		transition: color 0.2s;
+	}
+
+	.footer__nav li a:hover,
+	.footer__nav li a:active {
+		color: #ddd;
+	}
+
+	footer p {
+		color: #888;
+	}
+
+	// .footer__logo {
+	// 	width: 100%;
+	// 	height: auto;
+	// }
+	//
+	// .footer__logo img {
+	// 	height: 10%;
+	// }
+
+/* --------------------------------------------*/
 /* SERVICES OVERVIEW */
 /* --------------------------------------------*/
 .svcs__heading {
