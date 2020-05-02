@@ -414,6 +414,7 @@ header {
 
 .ben__photo img {
 	max-width: 100%;
+	display: block;
 }
 
 .ben__content {
@@ -440,10 +441,12 @@ header {
 }
 
 .ben__list a {
-	margin-top: 30px;
+	margin-top: 25px;
 }
 
 .ben__print {
 	font-weight: 100;
 	font-size: 80%;
+	margin-left: 10px;
+	margin-bottom: 10px;
 }
