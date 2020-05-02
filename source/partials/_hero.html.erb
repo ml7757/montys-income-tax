@@ -1,14 +1,17 @@
-<div class="hero__section">
-	<div class="hero__group">
-		<h1 class="hero__title"><%= title %></h1>
-		<% if locals[:break_text] %>
-			<h1><%= break_text %></h1>
-		<% end %>
-		<div class="hero__btns">
-			<%= link_to btn_full, "#", class: "btn btn-full" %>
-			<% if locals[:btn_clear] %>
-				<%= link_to btn_clear, "#", class: "btn btn-transparent" %>
+<header style="background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(<%= img %>)">
+	<%= partial "partials/nav" %>
+	<div class="hero__section">
+		<div class="hero__group">
+			<h1 class="hero__title"><%= title %></h1>
+			<% if locals[:break_text] %>
+				<h1><%= break_text %></h1>
 			<% end %>
+			<div class="hero__btns">
+				<%= link_to btn_full, "#", class: "btn btn-full" %>
+				<% if locals[:btn_clear] %>
+					<%= link_to btn_clear, "#", class: "btn btn-transparent" %>
+				<% end %>
+			</div>
 		</div>
 	</div>
-</div>
+</header>

@@ -1,6 +1,6 @@
 <nav class="nav__bar">
 	<div class="nav__logo">
-		<% link_to "#", class: "logo__group" do %>
+		<% link_to "/index.html", class: "logo__group" do %>
 			<%= image_tag "images/logo.png", alt: "Monty's Income Tax Services logo", class: "logo__logo" %>
 			<ul class="logo__text">
 				<li><%= data.home.nav.logo_text_1 %></li>
@@ -10,8 +10,8 @@
 		<% end %>
 	</div>
 	<ul class="nav__items">
-		<li><%= link_to data.home.nav.link_1, "#" %></li>
-		<li><%= link_to data.home.nav.link_2, "#" %></li>
-		<li><%= link_to data.home.nav.link_3, "#" %></li>
+		<li><%= link_to data.home.nav.label_1, data.home.nav.link_1 %></li>
+		<li><%= link_to data.home.nav.label_2, data.home.nav.link_2 %></li>
+		<li><%= link_to data.home.nav.label_3, "#" %></li>
 	</ul>
 </nav>

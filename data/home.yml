@@ -2,11 +2,15 @@ nav:
   logo_text_1: Monty's
   logo_text_2: Income Tax
   logo_text_3: Services
-  link_1: Home
-  link_2: About Us
+  label_1: Home
+  label_2: About Us
+  label_3: Contact
+  link_1: "/index.html"
+  link_2: "/about.html"
   link_3: Contact
 
 hero:
+  img: "../images/hero-index.jpg"
   title: Our best results on your tax return,
   break_text: at fair prices
   btn_full: Something

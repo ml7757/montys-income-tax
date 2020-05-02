@@ -1,0 +1,8 @@
+hero:
+  img: "../images/young_street.png"
+  title: Serving the Fraser Valley's tax needs,
+  break_text: for over 16 years
+  btn_full: Something
+  full_link:
+  btn_clear: Something else
+  clear_link:

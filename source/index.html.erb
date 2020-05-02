@@ -1,14 +1,13 @@
 ---
 title: Monty's Income Tax Services
 ---
-<header>
-	<%= partial "partials/nav" %>
-	<%= partial(:'partials/hero', :locals => {
-							:title => data.home.hero.title,
-							:break_text => data.home.hero.break_text,
-							:btn_full => data.home.hero.btn_full,
-							:btn_clear => data.home.hero.btn_clear }) %>
-</header>
+
+<%= partial(:'partials/hero', :locals => {
+						:img => data.home.hero.img,
+						:title => data.home.hero.title,
+						:break_text => data.home.hero.break_text,
+						:btn_full => data.home.hero.btn_full,
+						:btn_clear => data.home.hero.btn_clear }) %>
 
 <%= partial "partials/services_section" %>
 
