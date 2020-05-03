@@ -1,8 +1,44 @@
 hero:
-  img: "../images/young_street.png"
+  img: |
+    ../images/young_street.png
   title: Serving the Fraser Valley's tax needs,
-  break_text: for over 16 years
+  break_text: for nearly two decades
   btn_full: Something
   full_link:
   btn_clear: Something else
   clear_link:
+
+company:
+  heading: |
+    35 years of collective experience
+  intro: |
+    Opening our doors in 2003, ​​Monty's Income Tax Services remains a small and
+    independent, but highly professional income tax preparation service. Our
+    client base has gradually grown over the last two decades primarily driven
+    by word of mouth, courtesy of our satisfied clients.
+  card_heading_1: Operating Region
+  card_heading_2: Expertise
+  card_heading_3: Education & Experience
+  card_para_1: |
+    We serve the Fraser Valley with our primary client base residing in:
+  card_para_2: |
+    Monty's specializes in, but not limited to, the following areas:
+  card_para_3: |
+    Some of our qualifications and experience include:
+  city_1: Abbotsford
+  city_2: Greater Chilliwack
+  city_3: Sardis
+  city_4: Harrison
+  city_5: Hope
+  expertise_1: |
+    T1 General
+  expertise_2: |
+    T1 adjustments
+  expertise_3: Disability tax benefits
+  expertise_4: Back years taxes
+  expertise_5: Small home based business
+  qual_1: H&R Block
+  qual_2: Tax Service Specialist
+  qual_3: Sage 50 & Quickbooks
+  qual_4: BookKeeper & Profile
+  qual_5: Bachelor of Commerce

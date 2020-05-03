@@ -449,3 +449,56 @@ header {
 	margin-left: 10px;
 	margin-bottom: 10px;
 }
+
+/* --------------------------------------------*/
+/* COMPANY SECTION */
+/* --------------------------------------------*/
+
+.company__intro {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+.company__container {
+	display: flex;
+	justify-content: space-around;
+}
+
+.company__card {
+	flex: 0 0 25%;
+	display: flex;
+	flex-direction: column;
+	height: auto;
+	padding: 15px;
+	background-color: #f4f4f4;
+}
+
+.company__card h3 {
+	align-self: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.company__card h3::after {
+	height: 2px;
+	background-color: #10ac84;
+	content: " ";
+	width: 100px;
+	margin-top: 15px;
+}
+
+.company__card p {
+	margin-bottom: 10px;
+}
+
+.company__card ul {
+	margin-left: 20px;
+}
+
+.company__card p,
+.company__card ul {
+	font-weight: 100;
+}
