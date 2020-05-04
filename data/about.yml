@@ -42,3 +42,24 @@ company:
   qual_3: Sage 50 & Quickbooks
   qual_4: BookKeeper & Profile
   qual_5: Bachelor of Commerce
+
+team:
+  heading: Meet the Team
+  member_1: Lona
+  member_2: Monty
+  member_3: Bruce
+  lona_disc_1: |
+    T1 General income tax, student and disability information specialist,
+    owner/operator, and partner.
+  lona_disc_2: |
+    Key contact for seniors and disabled persons requiring pick-up and delivery
+    services.
+  monty_disc_1: |
+    2001 - 2016
+  monty_disc_2: |
+    Namesake of our business and friend to all he met in his travels. He is
+    missed everyday.
+  bruce_disc_1: |
+    T1 General, home based business, farming activities, rental activities,
+    contractor and long haul trucking, and student and CCA specialist.
+  bruce_disc_2: Bookkeeping is a new addition to our service portfolio as of 2020.
