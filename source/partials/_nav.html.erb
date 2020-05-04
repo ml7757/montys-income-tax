@@ -1,4 +1,4 @@
-<nav class="nav__bar">
+<nav style="background-color: <%= colour %>" class="nav__bar">
 	<div class="nav__logo">
 		<% link_to "/index.html", class: "logo__group" do %>
 			<%= image_tag "images/logo.png", alt: "Monty's Income Tax Services logo", class: "logo__logo" %>
@@ -12,6 +12,6 @@
 	<ul class="nav__items">
 		<li><%= link_to data.other.nav.label_1, data.other.nav.link_1 %></li>
 		<li><%= link_to data.other.nav.label_2, data.other.nav.link_2 %></li>
-		<li><%= link_to data.other.nav.label_3, "#" %></li>
+		<li><%= link_to data.other.nav.label_3, data.other.nav.link_3 %></li>
 	</ul>
 </nav>

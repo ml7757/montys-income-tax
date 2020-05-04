@@ -7,6 +7,9 @@ nav:
   label_3: Contact
   label_4: Privacy Policy
   label_5: Sitemap
-  link_1: "/index.html"
-  link_2: "/about.html"
-  link_3: Contact
+  link_1: |
+    /index.html
+  link_2: |
+    /about.html
+  link_3: |
+    /contact.html
