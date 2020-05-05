@@ -96,7 +96,8 @@ ion-icon {
 
 /* ----- BUTTONS ------ */
 .btn:link,
-.btn:visited {
+.btn:visited,
+input[type="submit"] {
 	display: inline-block;
 	padding: 10px 30px;
 	font-weight: 300;
@@ -107,7 +108,8 @@ ion-icon {
 }
 
 .btn-full:link,
-.btn-full:visited {
+.btn-full:visited,
+input[type="submit"] {
 	background-color: #10ac84;
 	border: 1px solid #10ac84;
 	margin-right: 15px;
@@ -119,7 +121,9 @@ ion-icon {
 }
 
 .btn:hover,
-.btn:active {
+.btn:active,
+input[type="submit"]:hover,
+input[type="submit"]:active {
 	background-color: #0c7d60;
 }
 
@@ -191,17 +195,12 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 0 5%;
+	padding: 1% 5%;
 }
 
 .logo__group {
 	display: flex;
 	align-items: center;
-	margin-top: 5%;
-}
-
-.logo__group {
-	text-decoration: none;
 }
 
 .logo__text {
@@ -519,6 +518,7 @@ header {
 	display: flex;
 	justify-content: space-around;
 }
+
 #map {
 	flex: 0 0 60%;
 	height: 500px;
@@ -548,3 +548,45 @@ ion-icon.location__icon {
 .location__number {
 	align-self: center;
 }
+
+/* --------------------------------------------*/
+/* CONTACT SECTION */
+/* --------------------------------------------*/
+.form__section {
+	background-color: #f4f4f4;
+}
+
+.form__contact {
+	display: flex;
+	justify-content: center;
+}
+
+.form__container {
+	width: 40%;
+}
+
+.form__group {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+
+.form__field {
+	flex: 0 0 75%;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+	width: 100%;
+	padding: 7px;
+	border-radius: 3px;
+	border: 1px solid #10ac84;
+}
+
+::placeholder {
+	font-weight: 100;
+}
+
+*:focus {outline: none;}

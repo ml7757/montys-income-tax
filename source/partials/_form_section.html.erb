@@ -1,0 +1,37 @@
+<section class="form__section">
+	<h2><%= data.contact.form.heading %></h2>
+	<form name="contact" action="/contact.html" method="post" data-netlify="true" class="form__contact">
+		<div class="form__container">
+			<div class="form__group">
+				<label for="name"><%= data.contact.form.label_1 %></label>
+				<div class="form__field">
+					<input type="text" name="name" id="name" placeholder="<%= data.contact.form.placeholder_1 %>" required>
+				</div>
+			</div>
+			<div class="form__group">
+				<label for="email"><%= data.contact.form.label_2 %></label>
+				<div class="form__field">
+					<input type="email" name="email" id="email" placeholder="<%= data.contact.form.placeholder_2 %>" required>
+				</div>
+			</div>
+			<div class="form__group">
+				<label for="phone"><%= data.contact.form.label_3 %></label>
+				<div class="form__field">
+					<input type="tel" name="phone" id="phone" placeholder="<%= data.contact.form.placeholder_3 %>">
+				</div>
+			</div>
+			<div class="form__group">
+				<label><%= data.contact.form.label_4 %></label>
+				<div class="form__field">
+					<textarea name="message" placeholder="<%= data.contact.form.placeholder_4 %>" rows="8" required></textarea>
+				</div>
+			</div>
+			<div class="form__group">
+				<label>&nbsp;</label>
+				<div class="form__field">
+					<input type="submit" value="Send">
+				</div>
+			</div>
+		</div>
+	</form>
+</section>

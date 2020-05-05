@@ -8,3 +8,15 @@ location:
     (604)-792-0177
   fax: |
    (604)-792-6660
+
+form:
+  heading: We would love to hear from you
+  label_1: Name
+  label_2: Email
+  label_3: Phone
+  label_4: Message
+  placeholder_1: John Smith
+  placeholder_2: john@example.com
+  placeholder_3: |
+    604-123-4567
+  placeholder_4: What can we help you with?
