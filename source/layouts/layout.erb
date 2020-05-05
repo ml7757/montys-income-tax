@@ -8,11 +8,22 @@
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title><%= current_page.data.title || "Monty's Income Tax Services" %></title>
     <%= stylesheet_link_tag "site" %>
-    <%= javascript_include_tag "site" %>
+		<%= javascript_include_tag "site" %>
   </head>
   <body>
     <%= yield %>
 		<%= partial "partials/footer" %>
-		<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
   </body>
+	<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+	<script>
+		function initMap() {
+		  var montys = {lat: 49.169639, lng: -121.941281};
+		  var map = new google.maps.Map(
+		      document.getElementById('map'), {zoom: 15, center: montys});
+		  var marker = new google.maps.Marker({position: montys, map: map});
+		}
+		</script>
+		<script async defer
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCzZ-yG3tL0ylOocv_d7xShBSxvKMxSlew&callback=initMap">
+	</script>
 </html>

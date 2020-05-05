@@ -1,0 +1,25 @@
+<section class="location__section">
+	<div class="location__container">
+		<div id="map"></div>
+		<div class="location__divider"></div>
+		<div class="location__group">
+			<h2><%= data.contact.location.heading %></h2>
+			<div class="location__details">
+				<ion-icon name="location-outline" class="location__icon"></ion-icon>
+				<p>
+					<%= data.contact.location.street %><br>
+					<%= data.contact.location.city_province %><br>
+					<%= data.contact.location.postal_code %>
+				</p>
+			</div>
+			<div class="location__details">
+				<ion-icon name="call-outline" class="location__icon"></ion-icon>
+				<p class="location__number"><%= data.contact.location.phone %></p>
+			</div>
+			<div class="location__details">
+				<ion-icon name="print-outline" class="location__icon"></ion-icon>
+				<p class="location__number"><%= data.contact.location.fax %></p>
+			</div>
+		</div>
+	</div>
+</section>

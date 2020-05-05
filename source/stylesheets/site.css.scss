@@ -90,7 +90,6 @@ h2::after {
 /* ----- ICONS ------ */
 ion-icon {
 	font-size: 350%;
-	display: block;
 	color: #10ac84;
 	margin-bottom: 10px;
 }
@@ -511,4 +510,41 @@ header {
 
 .card__heading.team {
 	margin-top: 15px;
+}
+
+/* --------------------------------------------*/
+/* LOCATION SECTION */
+/* --------------------------------------------*/
+.location__container {
+	display: flex;
+	justify-content: space-around;
+}
+#map {
+	flex: 0 0 60%;
+	height: 500px;
+}
+
+.location__divider {
+	border: 1px solid #dbdbdb;
+	height: 400px;
+	align-self: center;
+}
+
+.location__group {
+	align-self: flex-start;
+}
+
+.location__details {
+	display: flex;
+	margin-top: 20px;
+}
+
+ion-icon.location__icon {
+	font-size: 200%;
+	margin-bottom: 0;
+	margin-right: 10px;
+}
+
+.location__number {
+	align-self: center;
 }
