@@ -15,6 +15,7 @@ page '/*.txt', layout: false
 
 activate :livereload
 activate :directory_indexes
+activate :sprockets
 
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'

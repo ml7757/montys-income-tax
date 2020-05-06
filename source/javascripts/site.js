@@ -1,12 +1,19 @@
-// <script>
-// 	function initMap() {
-// 	  var montys = {lat: 49.169, lng: -121.941};
-// 	  var map = new google.maps.Map(
-// 	      document.getElementById('map'), {zoom: 4, center: montys});
-// 	  var marker = new google.maps.Marker({position: montys, map: map});
-// 	}
-// 	</script>
-// 	<script async defer
-// 	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCzZ-yG3tL0ylOocv_d7xShBSxvKMxSlew&callback=initMap">
-// </script>
-// <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+//= require jquery
+
+$(document).ready(function() {
+	$("#js-scroll-to-services").click(function() {
+		$('html, body').animate({scrollTop: $('.js-section-services').offset().top}, 1000);
+	});
+
+	$("#js-scroll-to-journey").click(function() {
+		$('html, body').animate({scrollTop: $('.js-section-journey').offset().top}, 1000);
+	});
+
+	$("#js-scroll-to-experience").click(function() {
+		$('html, body').animate({scrollTop: $('.js-section-experience').offset().top}, 1000);
+	});
+
+	$("#js-scroll-to-team").click(function() {
+		$('html, body').animate({scrollTop: $('.js-section-team').offset().top}, 1000);
+	});
+});

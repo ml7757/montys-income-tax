@@ -3,10 +3,11 @@ hero:
     ../images/young_street.png
   title: Serving the Fraser Valley's tax needs,
   break_text: for nearly two decades
-  btn_full: Something
-  full_link:
-  btn_clear: Something else
-  clear_link:
+  btn_full: Our collective experience
+  class_full: js-scroll-to-experience
+  btn_clear: Meet the team
+  class_clear: js-scroll-to-team
+
 
 company:
   heading: |

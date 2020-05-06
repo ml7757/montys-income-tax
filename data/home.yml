@@ -2,10 +2,10 @@ hero:
   img: "../images/hero-index.jpg"
   title: Our best results on your tax return,
   break_text: at fair prices
-  btn_full: Something
-  full_link:
-  btn_clear: Something else
-  clear_link:
+  btn_full: View our services
+  class_full: js-scroll-to-services
+  btn_clear: Let's get started
+  class_clear: js-scroll-to-journey
 
 svcs:
   heading: Services Overview
