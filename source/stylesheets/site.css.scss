@@ -98,7 +98,6 @@ ion-icon {
 .btn:link,
 .btn:visited,
 input[type="submit"] {
-	display: inline-block;
 	padding: 10px 30px;
 	font-weight: 300;
 	text-decoration: none;
@@ -569,6 +568,7 @@ ion-icon.location__icon {
 .form__group {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	margin-top: 30px;
 }
 
@@ -581,13 +581,16 @@ input[type="email"],
 input[type="tel"],
 textarea {
 	width: 100%;
-	padding: 7px;
+	padding: 10px;
 	border-radius: 3px;
 	border: 1px solid #10ac84;
+	font-family: "lato", "Arial", sans-serif;
+	font-size: 20px;
 }
 
-::placeholder {
-	font-weight: 100;
+.form__submit {
+	font-size: 20px;
+	font-family: "lato", "Arial", sans-serif;
 }
 
 *:focus {outline: none;}
