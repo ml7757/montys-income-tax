@@ -573,6 +573,14 @@ ion-icon.location__icon {
 	margin-top: 30px;
 }
 
+.form__group.submit {
+	margin-top: 0;
+}
+
+.form__group.hidden {
+	visibility: hidden;
+}
+
 .form__field {
 	flex: 0 0 75%;
 }

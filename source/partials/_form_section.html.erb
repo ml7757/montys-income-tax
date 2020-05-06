@@ -1,6 +1,6 @@
 <section class="form__section">
 	<h2><%= data.contact.form.heading %></h2>
-	<form name="contact" action="/contact.html" method="post" data-netlify="true" class="form__contact">
+	<form name="contact" action="/contact.html" method="post" netlify-honeypot="bot-field" data-netlify="true" class="form__contact">
 		<div class="form__container">
 			<div class="form__group">
 				<label for="name"><%= data.contact.form.label_1 %></label>
@@ -26,7 +26,13 @@
 					<textarea name="message" rows="8" required></textarea>
 				</div>
 			</div>
-			<div class="form__group">
+			<div class="form__group hidden">
+				<label>Robot spam field</label>
+				<div class="form__field">
+					<input name="bot-field">
+				</div>
+			</div>
+			<div class="form__group submit">
 				<label>&nbsp;</label>
 				<div class="form__field">
 					<input type="submit" value="Send" class="form__submit">
