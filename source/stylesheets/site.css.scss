@@ -89,9 +89,10 @@ h2::after {
 }
 
 /* ----- ICONS ------ */
-ion-icon {
-	font-size: 350%;
-	color: #10ac84;
+.icon {
+	height: 64px;
+	width: 64px;
+	fill: #10ac84;
 	margin-bottom: 10px;
 }
 
@@ -341,7 +342,7 @@ header {
 	margin-bottom: 50px;
 }
 
-.why__icon ion-icon {
+.why__icon .icon{
 	margin-right: 25px;
 	margin-bottom: 0;
 }
@@ -540,10 +541,11 @@ header {
 	margin-top: 20px;
 }
 
-ion-icon.location__icon {
-	font-size: 200%;
+.icon.location__icon {
+	height: 36px;
+	width: 36px;
 	margin-bottom: 0;
-	margin-right: 10px;
+	margin-right: 15px;
 }
 
 .location__number {
