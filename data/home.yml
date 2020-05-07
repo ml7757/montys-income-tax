@@ -1,5 +1,6 @@
 hero:
-  img: "../images/index-hero-min.jpg"
+  img: |
+    ../images/index-hero-min.jpg
   title: Our best results on your tax return,
   break_text: at fair prices
   btn_full: View our services
@@ -9,41 +10,69 @@ hero:
 
 svcs:
   heading: Services Overview
-  intro: "Monty's is an experienced independent income tax preparation service, with a team of professionals standing by to assist you or your company in any of the following areas:"
+  intro: |
+    Monty's is an experienced independent income tax preparation service, with a
+    team of professionals standing by to assist you or your company in any of
+    the following areas:
   title_one: Canadian Income Tax
   title_two: U.S.A. Tax Crossover
   title_three: Bookkeeping & Payroll
   title_four: Employee Benefit Plans
-  desc_one: T1 - T2042 - T2125 - T2200 - T2202 - T776 - T777 - TL2, general filing, multiple back years, and adjustments.
-  desc_two: Ownership or sales of US property over $100,000, and 1042-S U.S Social Security Pensions.
-  desc_three: Home based business full cycle bookkeeping and payroll services, including T4 summaries.
-  desc_four: Administration and oversight of Employee Benefit Plans for your company.
+  desc_one: |
+    T1 - T2042 - T2125 - T2200 - T2202 - T776 - T777 - TL2, general filing,
+    multiple back years, and adjustments.
+  desc_two: |
+    Ownership or sales of US property over $100,000, and 1042-S U.S Social
+    Security Pensions.
+  desc_three: |
+    Home based business full cycle bookkeeping and payroll services, including
+    T4 summaries.
+  desc_four: |
+    Administration and oversight of Employee Benefit Plans for your company.
 
 why:
   heading: Why Trust Monty's?
   sub_one: 35 years of collective experience
   sub_two: Client returns before corporate profitability
   sub_three: Support whenever you need it
-  info_one: We know the ins-and-outs of Canadian taxes, and our growing base of satisfied clients think we do as well.
-  info_two: The potential of every tax return is maximized against the latest benefits and tax considerations, regardless of time and effort.
-  info_three: Help isn't bound to the tax season only. Baffled by wordy documentation? Upcoming audit with the CRA? We can be there to assist you.
+  info_one: |
+    We know the ins-and-outs of Canadian taxes, and our growing base of
+    satisfied clients think we do as well.
+  info_two: |
+    The potential of every tax return is maximized against the latest benefits
+    and tax considerations, regardless of time and effort.
+  info_three: |
+    Help isn't bound to the tax season only. Baffled by wordy documentation?
+    Upcoming audit with the CRA? We can be there to assist you.
   btn: More About Us
 
 journey:
   heading: Your Journey to Maximized Returns
   link_label: Contact us
-  num_one: "1"
-  num_two: "2"
-  num_three: "3"
-  num_four: "4"
-  content_one: " by phone or through our website and we will get back to you."
-  content_two: Drop off your tax info at our location and we will review it together.
-  content_three: Once completed, we call you in for the final review and signatures before efiling.
-  content_four: Sit back and relax knowing your return has been filed with you at the forefront.
+  num_one: |
+    1
+  num_two: |
+    2
+  num_three: |
+    3
+  num_four: |
+    4
+  content_one: |
+     by phone or through our website and we will get back to you.
+  content_two: |
+    Drop off your tax info at our location and we will review it together.
+  content_three: |
+    Once completed, we call you in for the final review and signatures before
+    efiling.
+  content_four: |
+    Sit back and relax knowing your return has been filed with you at the
+    forefront.
 
 benefit:
   one: Student and senior discounts
-  two: "Pickup service for seniors and those with disabilities*"
+  two: Pickup service for seniors and those with disabilities
   three: Disability Tax assistance
   cta_btn: Contact us for more information
-  fine_print: "*Available upon request within the districts of Chilliwack and Sardis only."
+  fine_print: |
+    *Available upon request within the districts of Greater Chilliwack and
+    Sardis only.

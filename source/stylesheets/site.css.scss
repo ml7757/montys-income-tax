@@ -63,6 +63,7 @@ h2 {
 }
 
 h3 {
+	font-weight: 400;
 	font-size: 110%;
 	margin-bottom: 15px;
 }
@@ -306,10 +307,6 @@ header {
 	width: 20%;
 }
 
-.svcs__offer p {
-	font-weight: 100;
-}
-
 /* --------------------------------------------*/
 /* WHY US SECTION */
 /* --------------------------------------------*/
@@ -347,8 +344,11 @@ header {
 	margin-bottom: 0;
 }
 
+.why__sub {
+	font-weight: 400;
+}
+
 .why__info {
-	font-weight: 100;
 	margin-top: 10px;
 }
 
@@ -364,10 +364,6 @@ header {
 .journey__container--bottom {
 	display: flex;
 	margin: 0 5%;
-}
-
-.journey__container--bottom {
-	flex-direction: row-reverse;
 }
 
 .journey__group--one,
@@ -462,7 +458,13 @@ header {
 }
 
 .ben__list h3 {
+	font-weight: 300;
 	margin-bottom: 30px;
+}
+
+.ben__list span {
+	font-size: 120%;
+	font-weight: 400;
 }
 
 .ben__list a {
@@ -470,7 +472,7 @@ header {
 }
 
 .ben__print {
-	font-weight: 100;
+	font-weight: 400;
 	font-size: 80%;
 	margin-left: 10px;
 	margin-bottom: 10px;
