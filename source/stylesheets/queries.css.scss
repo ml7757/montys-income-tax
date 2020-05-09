@@ -5,6 +5,8 @@
 	.gen__intro { width: 75%; }
 
 	.nav__items { flex: 0 0 45%; }
+
+	.why__group { width: 60%; }
 }
 
 @media only screen and (max-width: 1040px) {
@@ -25,6 +27,8 @@
 
 @media only screen and (max-width: 860px) {
 	body { font-size: 16px; }
+
+	.why__content { width: 80%; }
 }
 
 @media only screen and (max-width: 767px) {
@@ -48,9 +52,20 @@
 	.svcs__offer { width: 50%; }
 
 	.svcs__offer:nth-child(n+3) { margin-top: 30px;}
+
+	.why__section { background-position: 70% 50%;}
+
+	.why__group { width: 65%; }
 }
 
 @media only screen and (max-width: 600px) {
+	.why__group { width: 75%; }
+}
+
+@media only screen and (max-width: 470px) {
+	.why__group { width: 85%; }
+
+	.why__section { background-position: 65% 50%;}
 }
 
 @media only screen and (max-width: 425px) {
@@ -59,6 +74,16 @@
 	.svcs__offer:nth-child(n+1) {
 		margin-bottom: 30px;
 		margin-top: 0;
+	}
+
+	.why__group {
+		width: 100%;
+		color: #fff;
+	}
+
+	.why__section {
+		background-position: 40% 50%;
+		background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/why-us.jpg);
 	}
 }
 
@@ -75,4 +100,8 @@
 		margin-right: 0;
 		margin-bottom: 20px;
 	}
+
+	h2 { font-size: 160%; 	}
+
+	.why__content { width: 100%; }
 }
