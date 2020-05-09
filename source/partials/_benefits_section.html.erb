@@ -1,15 +1,13 @@
 <section class="ben__section">
 	<div class="ben__container">
-		<figure class="ben__photo">
-			<%= image_tag 'images/people-min.jpg', alt: "A group of people facing forward" %>
-		</figure>
+		<div class="ben__photo"></div>
 		<div class="ben__content">
-			<h2 class="ben__heading">Benefits with you in Mind</h2>
+			<h2 class="ben__heading"><%= data.home.benefit.heading %></h2>
 			<div class="ben__list">
-				<h3><%= data.home.benefit.one %></h3>
-				<h3><%= data.home.benefit.two %><span>*</span></h3>
-				<h3><%= data.home.benefit.three %></h3>
-				<%= link_to data.home.benefit.cta_btn, data.other.nav.link_3, class: "btn btn-full why__btn" %>
+				<p><%= data.home.benefit.one %></p>
+				<p><%= data.home.benefit.two %><span>*</span></p>
+				<p><%= data.home.benefit.three %></p>
+				<%= link_to data.home.benefit.cta_btn, data.other.nav.link_3, class: "btn btn-full ben__btn" %>
 			</div>
 			<p class="ben__print"><%= data.home.benefit.fine_print %></p>
 		</div>

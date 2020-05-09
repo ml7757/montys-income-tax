@@ -1,3 +1,6 @@
+@media only screen and (max-width: 1366px) {
+		.ben__print { margin-bottom: 10px; }
+}
 
 @media only screen and (max-width: 1125px) {
 	section { padding: 40px 0; }
@@ -37,6 +40,11 @@
 		width: 90px;
 		font-size: 350%;
 	}
+
+	.ben__photo {
+		flex: 0 0 35%;
+		background-position: 45% 50%;
+	}
 }
 
 @media only screen and (max-width: 767px) {
@@ -69,6 +77,8 @@
 
 	.journey__group--one,
 	.journey__group--two { margin-top: 0; }
+
+	.ben__photo { display: none; }
 }
 
 @media only screen and (max-width: 600px) {
@@ -81,9 +91,7 @@
 	.journey__group--one,
 	.journey__group--two,
 	.journey__group--three,
-	.journey__group--four {
-		flex: 0 0 100%;
-	}
+	.journey__group--four { flex: 0 0 100%; }
 }
 
 @media only screen and (max-width: 470px) {

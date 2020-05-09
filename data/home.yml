@@ -69,10 +69,12 @@ journey:
     forefront.
 
 benefit:
+  heading: The Monty Advantage
   one: Student and senior discounts
-  two: Pickup service for seniors and those with disabilities
+  two: |
+    Pickup service for select clients
   three: Disability Tax assistance
   cta_btn: Contact us for more information
   fine_print: |
-    *Available upon request within the districts of Greater Chilliwack and
-    Sardis only.
+    *For seniors and persons with disabilities. Available upon request within the
+    districts of Greater Chilliwack and Sardis only.

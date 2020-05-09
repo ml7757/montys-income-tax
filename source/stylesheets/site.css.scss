@@ -29,13 +29,9 @@ html, body {
 /* REUSABLE COMPONENTS */
 /* --------------------------------------------*/
 
-section {
-	padding: 80px 0;
-}
+section { padding: 80px 0; }
 
-.box {
-	padding: 2%;
-}
+.box { padding: 2%; }
 
 /* ----- HEADINGS ------ */
 h1,
@@ -121,26 +117,18 @@ input[type="submit"] {
 }
 
 .btn-transparent:link,
-.btn-transparent:visited {
-	border: 1px solid #10ac84;
-}
+.btn-transparent:visited { border: 1px solid #10ac84; }
 
 .btn:hover,
 .btn:active,
 input[type="submit"]:hover,
-input[type="submit"]:active {
-	background-color: #0c7d60;
-}
+input[type="submit"]:active { background-color: #0c7d60; }
 
 .btn-full:hover,
-.btn-full:active {
-	border: 1px solid #0c7d60;
-}
+.btn-full:active { border: 1px solid #0c7d60; }
 
 .btn-transparent:hover,
-.btn-transparent:active {
-	border: 1px solid #0c7d60;
-}
+.btn-transparent:active { border: 1px solid #0c7d60; }
 
 /* ----- CARD ------ */
 .card__container {
@@ -171,13 +159,9 @@ input[type="submit"]:active {
 	margin-top: 15px;
 }
 
-.card__para {
-	margin-bottom: 10px;
-}
+.card__para { margin-bottom: 10px; }
 
-.card__list {
-	margin-left: 20px;
-}
+.card__list { margin-left: 20px; }
 
 /* --------------------------------------------*/
 /* HEADER */
@@ -203,20 +187,14 @@ header {
 	align-items: flex-start;
 }
 
-.hero__title {
-	margin-bottom: 0;
-}
+.hero__title { margin-bottom: 0; }
 
-.hero__btns {
-	margin-top: 15px;
-}
+.hero__btns { margin-top: 15px; }
 
 /* --------------------------------------------*/
 /* MOBILE NAV */
 /* --------------------------------------------*/
-.mobile__nav__icon {
-	display: none;
-}
+.mobile__nav__icon { display: none; }
 
 /* --------------------------------------------*/
 /* NAV */
@@ -265,9 +243,7 @@ header {
 }
 
 .nav__items li a:hover,
-.nav__items li a:active {
-	border-bottom: 2px solid #10ac84;
-}
+.nav__items li a:active { border-bottom: 2px solid #10ac84; }
 
 /* --------------------------------------------*/
 /* FOOTER */
@@ -291,9 +267,7 @@ header {
 		list-style: none;
 	}
 
-	.footer__nav li {
-		margin-right: 30px;
-	}
+	.footer__nav li { margin-right: 30px; }
 
 	.footer__nav li a:link,
 	.footer__nav li a:visited {
@@ -304,13 +278,9 @@ header {
 	}
 
 	.footer__nav li a:hover,
-	.footer__nav li a:active {
-		color: #ddd;
-	}
+	.footer__nav li a:active { color: #ddd; }
 
-	footer p {
-		color: #888;
-	}
+	footer p { color: #888; }
 
 /* --------------------------------------------*/
 /* SERVICES OVERVIEW */
@@ -402,21 +372,13 @@ header {
 	margin-top: 30px;
 }
 
-.journey__group--one {
-	background-image: url(../images/call.png);
-}
+.journey__group--one { background-image: url(../images/call.png); }
 
-.journey__group--two {
-	background-image: url(../images/documents.png);
-}
+.journey__group--two { background-image: url(../images/documents.png); }
 
-.journey__group--three {
-	background-image: url(../images/clipboard.png);
-}
+.journey__group--three { background-image: url(../images/clipboard.png); }
 
-.journey__group--four {
-	background-image: url(../images/wine.png);
-}
+.journey__group--four { background-image: url(../images/wine.png); }
 
 .journey__number {
 	color: #10ac84;
@@ -441,35 +403,25 @@ header {
 /* --------------------------------------------*/
 /* BENEFITS SECTION */
 /* --------------------------------------------*/
-.ben__section {
-	padding: 0;
-}
+.ben__section { padding: 0; }
 
-.ben__container {
-	display: flex;
-}
+.ben__container { display: flex; }
 
 .ben__photo {
-	flex: 0 0 40%;
-}
-
-.ben__photo img {
-	max-width: 100%;
-	display: block;
-	object-fit: cover;
+	flex: 0 0 50%;
+	background-image: url(../images/people-min.jpg);
+	background-size: cover;
+	background-position: 50% 5%;
 }
 
 .ben__content {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	flex: 1;
 	background-color: #f4f4f4;
 }
 
-.ben__heading {
-	margin-top: 30px;
-}
+.ben__heading { margin-top: 30px; }
 
 .ben__list {
 	display: flex;
@@ -478,7 +430,8 @@ header {
 	align-items: center;
 }
 
-.ben__list h3 {
+.ben__list p {
+	text-transform: uppercase;
 	font-weight: 300;
 	margin-bottom: 30px;
 }
@@ -488,15 +441,13 @@ header {
 	font-weight: 400;
 }
 
-.ben__list a {
-	margin-top: 25px;
-}
+.ben__btn { margin-bottom: 30px; }
 
 .ben__print {
 	font-weight: 400;
 	font-size: 80%;
-	margin-left: 10px;
-	margin-bottom: 10px;
+	margin-left: 5px;
+	margin-bottom: 30px;
 }
 
 /* --------------------------------------------*/
