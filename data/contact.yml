@@ -15,6 +15,7 @@ form:
     Name*
   label_2: |
     Email*
-  label_3: Phone
+  label_3: |
+    Phone*
   label_4: |
     Message*
