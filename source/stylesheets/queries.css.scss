@@ -16,6 +16,8 @@
 		width: 100px;
 		height: auto;
 	}
+
+	.journey__content { flex: 0 0 60%; }
 }
 
 @media only screen and (max-width: 940px) {
@@ -29,6 +31,12 @@
 	body { font-size: 16px; }
 
 	.why__content { width: 80%; }
+
+	.journey__number {
+		height: 90px;
+		width: 90px;
+		font-size: 350%;
+	}
 }
 
 @media only screen and (max-width: 767px) {
@@ -56,10 +64,26 @@
 	.why__section { background-position: 70% 50%;}
 
 	.why__group { width: 65%; }
+
+	.why__content { margin-top: 0; }
+
+	.journey__group--one,
+	.journey__group--two { margin-top: 0; }
 }
 
 @media only screen and (max-width: 600px) {
 	.why__group { width: 75%; }
+
+	.journey__container { margin: 0; }
+
+	.journey__group--two { margin-top: 30px; }
+
+	.journey__group--one,
+	.journey__group--two,
+	.journey__group--three,
+	.journey__group--four {
+		flex: 0 0 100%;
+	}
 }
 
 @media only screen and (max-width: 470px) {
@@ -69,6 +93,8 @@
 }
 
 @media only screen and (max-width: 425px) {
+	h2 { font-size: 160%; }
+
 	.svcs__offer { width: 100%; }
 
 	.svcs__offer:nth-child(n+1) {
@@ -100,8 +126,6 @@
 		margin-right: 0;
 		margin-bottom: 20px;
 	}
-
-	h2 { font-size: 160%; 	}
 
 	.why__content { width: 100%; }
 }

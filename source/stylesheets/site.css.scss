@@ -377,10 +377,14 @@ header {
 /* --------------------------------------------*/
 /* YOUR JOURNEY SECTION */
 /* --------------------------------------------*/
+	.journey__section {
+		display: flex;
+		flex-direction: column;
+	}
 
-.journey__container--top,
-.journey__container--bottom {
+.journey__container {
 	display: flex;
+	flex-wrap: wrap;
 	margin: 0 5%;
 }
 
@@ -426,9 +430,7 @@ header {
 	margin-right: 4%;
 }
 
-.journey__content {
-	flex: 0 0 50%;
-}
+.journey__content { flex: 0 0 50%; }
 
 .journey__content a {
 	text-decoration: none;
