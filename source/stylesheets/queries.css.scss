@@ -79,6 +79,8 @@
 	.journey__group--two { margin-top: 0; }
 
 	.ben__photo { display: none; }
+
+	.footer__logo img { height: 100px; }
 }
 
 @media only screen and (max-width: 600px) {
@@ -119,6 +121,8 @@
 		background-position: 40% 50%;
 		background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/why-us.jpg);
 	}
+
+	footer { padding: 15px; }
 }
 
 @media only screen and (max-width: 340px) {
@@ -136,4 +140,10 @@
 	}
 
 	.why__content { width: 100%; }
+
+	.ben__print { margin-bottom: 60px; }
+
+	footer p { margin: 50px 0 0 0; }
+
+	.footer__logo { display: none; }
 }

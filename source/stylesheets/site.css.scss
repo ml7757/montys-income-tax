@@ -280,7 +280,10 @@ header {
 	.footer__nav li a:hover,
 	.footer__nav li a:active { color: #ddd; }
 
-	footer p { color: #888; }
+	footer p {
+		margin-right: 10px;
+		color: #888;
+	}
 
 /* --------------------------------------------*/
 /* SERVICES OVERVIEW */
@@ -418,6 +421,7 @@ header {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	flex: 1;
 	background-color: #f4f4f4;
 }
 
