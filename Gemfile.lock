@@ -119,7 +119,7 @@ PLATFORMS
 
 DEPENDENCIES
   middleman (~> 4.2)
-  middleman-autoprefixer (~> 2.7)
+  middleman-autoprefixer
   middleman-livereload
   middleman-sprockets (~> 4.1, >= 4.1.1)
   rails-assets-jquery!
