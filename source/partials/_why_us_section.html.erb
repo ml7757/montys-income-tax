@@ -1,41 +1,45 @@
 <section class="why__section">
 	<div class="why__container">
-		<h2 class="why__heading"><%= data.home.why.heading %></h2>
-		<div class="why__content">
-			<div class="why__reason">
-				<div class="why__icon">
-					<svg class="icon">
-						<use xlink:href="#icon-check"></use>
-					</svg>
+		<div class="why__group">
+			<h2 class="why__heading"><%= data.home.why.heading %></h2>
+			<div class="why__content">
+				<div class="why__reason">
+					<div class="why__icon">
+						<svg class="icon">
+							<use xlink:href="#icon-check"></use>
+						</svg>
+					</div>
+					<div class="why__explanation">
+						<p class="why__sub"><%= data.home.why.sub_one %></p>
+						<p class="why__info"><%= data.home.why.info_one %></p>
+					</div>
 				</div>
-				<div class="why__explanation">
-					<p class="why__sub"><%= data.home.why.sub_one %></p>
-					<p class="why__info"><%= data.home.why.info_one %></p>
+				<div class="why__reason">
+					<div class="why__icon">
+						<svg class="icon">
+							<use xlink:href="#icon-check"></use>
+						</svg>
+					</div>
+					<div class="why__explanation">
+						<p class="why__sub"><%= data.home.why.sub_two %></p>
+						<p class="why__info"><%= data.home.why.info_two %></p>
+					</div>
+				</div>
+				<div class="why__reason">
+					<div class="why__icon">
+						<svg class="icon">
+							<use xlink:href="#icon-check"></use>
+						</svg>
+					</div>
+					<div class="why__explanation">
+						<p class="why__sub"><%= data.home.why.sub_three %></p>
+						<p class="why__info"><%= data.home.why.info_three %></p>
+					</div>
 				</div>
 			</div>
-			<div class="why__reason">
-				<div class="why__icon">
-					<svg class="icon">
-						<use xlink:href="#icon-check"></use>
-					</svg>
-				</div>
-				<div class="why__explanation">
-					<p class="why__sub"><%= data.home.why.sub_two %></p>
-					<p class="why__info"><%= data.home.why.info_two %></p>
-				</div>
-			</div>
-			<div class="why__reason">
-				<div class="why__icon">
-					<svg class="icon">
-						<use xlink:href="#icon-check"></use>
-					</svg>
-				</div>
-				<div class="why__explanation">
-					<p class="why__sub"><%= data.home.why.sub_three %></p>
-					<p class="why__info"><%= data.home.why.info_three %></p>
-				</div>
+			<div class="why__btn">
+				<%= link_to data.home.why.btn, data.other.nav.link_2, class: "btn btn-full" %>
 			</div>
 		</div>
-		<%= link_to data.home.why.btn, data.other.nav.link_2, class: "btn btn-full why__btn" %>
 	</div>
 </section>

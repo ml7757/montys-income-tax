@@ -315,9 +315,7 @@ header {
 /* --------------------------------------------*/
 /* SERVICES OVERVIEW */
 /* --------------------------------------------*/
-.svcs__heading {
-	margin-bottom: 50px;
-}
+.svcs__heading { margin-bottom: 50px; }
 
 .svcs__heading {
 	display: flex;
@@ -331,9 +329,7 @@ header {
 	margin: 0 5%;
 }
 
-.svcs__offer {
-	width: 20%;
-}
+.svcs__offer { width: 20%; }
 
 /* --------------------------------------------*/
 /* WHY US SECTION */
@@ -345,20 +341,22 @@ header {
 }
 
 .why__container {
+	width: 100%;
 	display: flex;
-	flex-direction: column;
-	margin-left: 35%;
-	margin-right: 5%;
+	justify-content: flex-end;
 }
 
-.why__heading {
-	align-self: center;
+.why__group {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+	margin-right: 5%;
 }
 
 .why__content {
 	margin-top: 30px;
-	width: 50%;
-	align-self: center;
+	width: 75%;
 }
 
 .why__reason {
@@ -372,17 +370,9 @@ header {
 	margin-bottom: 0;
 }
 
-.why__sub {
-	font-weight: 400;
-}
+.why__sub { font-weight: 400; }
 
-.why__info {
-	margin-top: 10px;
-}
-
-.why__btn {
-	align-self: center;
-}
+.why__info { margin-top: 10px; }
 
 /* --------------------------------------------*/
 /* YOUR JOURNEY SECTION */
@@ -464,6 +454,7 @@ header {
 .ben__photo img {
 	max-width: 100%;
 	display: block;
+	object-fit: cover;
 }
 
 .ben__content {
