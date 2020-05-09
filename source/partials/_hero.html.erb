@@ -4,7 +4,7 @@
 		<div class="hero__group">
 			<h1 class="hero__title"><%= title %></h1>
 			<% if locals[:break_text] %>
-				<h1><%= break_text %></h1>
+				<h1 class="hero__title--break"><%= break_text %></h1>
 			<% end %>
 			<div class="hero__btns">
 				<%= link_to btn_full, "#", class: "btn btn-full", id: class_full %>

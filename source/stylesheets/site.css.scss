@@ -17,11 +17,12 @@ hover colour: #0c7d60
 	box-sizing: border-box;
 }
 
-html {
+html, body {
 	font-family: 'Lato', 'Arial', sans-serif;
 	font-weight: 300;
 	font-size: 20px;
 	text-rendering: optimizeLegibility;
+	overflow-x: hidden;
 }
 
 /* --------------------------------------------*/
@@ -96,6 +97,8 @@ h2::after {
 	fill: #10ac84;
 	margin-bottom: 10px;
 }
+
+.icon.nav { fill: #fff; }
 
 /* ----- BUTTONS ------ */
 .btn:link,
@@ -193,6 +196,31 @@ header {
 	height: 100vh;
 }
 
+.hero__group {
+	margin: 0 5%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.hero__title {
+	margin-bottom: 0;
+}
+
+.hero__btns {
+	margin-top: 15px;
+}
+
+/* --------------------------------------------*/
+/* MOBILE NAV */
+/* --------------------------------------------*/
+.mobile__nav__icon {
+	display: none;
+}
+
+/* --------------------------------------------*/
+/* NAV */
+/* --------------------------------------------*/
 .nav__bar {
 	display: flex;
 	justify-content: space-between;

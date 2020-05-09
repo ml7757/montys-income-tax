@@ -22,4 +22,16 @@ $(document).ready(function() {
 	  div.innerHTML = new XMLSerializer().serializeToString(data.documentElement);
 	  document.body.insertBefore(div, document.body.childNodes[0]);
 	});
+
+	$(".js-nav-icon").click(function() {
+		var nav = $(".js-main-nav");
+
+		nav.slideToggle(200);
+
+		if ($(this).find("use").attr("xlink:href") === "#icon-menu") {
+			$(this).find("use").attr("xlink:href", "#icon-cross")
+		} else {
+			$(this).find("use").attr("xlink:href", "#icon-menu")
+		}
+	});
 });

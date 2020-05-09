@@ -9,9 +9,14 @@
 			</ul>
 		<% end %>
 	</div>
-	<ul class="nav__items">
+	<ul class="nav__items js-main-nav">
 		<li><%= link_to data.other.nav.label_1, data.other.nav.link_1 %></li>
 		<li><%= link_to data.other.nav.label_2, data.other.nav.link_2 %></li>
 		<li><%= link_to data.other.nav.label_3, data.other.nav.link_3 %></li>
 	</ul>
+	<% link_to "#", class: "mobile__nav__icon js-nav-icon" do %>
+		<svg class="icon nav">
+			<use xlink:href="#icon-menu"></use>
+		</svg>
+	<% end %>
 </nav>
