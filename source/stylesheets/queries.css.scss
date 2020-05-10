@@ -10,6 +10,8 @@
 	.nav__items { flex: 0 0 45%; }
 
 	.why__group { width: 60%; }
+
+	.card__individual.company { flex: 0 0 30%; }
 }
 
 @media only screen and (max-width: 1040px) {
@@ -63,6 +65,8 @@
 	.nav__items li a:link,
 	.nav__items li a:visited { border: 0; }
 
+	.footer__logo img { height: 100px; }
+
 	.svcs__content { flex-wrap: wrap; }
 
 	.svcs__offer { width: 50%; }
@@ -80,7 +84,16 @@
 
 	.ben__photo { display: none; }
 
-	.footer__logo img { height: 100px; }
+	.card__container {
+		flex-direction: column;
+		margin: 0 10%;
+	}
+
+	.card__individual:nth-child(-n+2) { margin-bottom: 30px; }
+
+	.card__individual.company {
+		background-color: #fff;
+	}
 }
 
 @media only screen and (max-width: 600px) {
@@ -100,6 +113,8 @@
 	.why__group { width: 85%; }
 
 	.why__section { background-position: 65% 50%;}
+
+	.card__container { margin: 0 5%; }
 }
 
 @media only screen and (max-width: 425px) {
@@ -142,6 +157,8 @@
 	.why__content { width: 100%; }
 
 	.ben__print { margin-bottom: 60px; }
+
+	.ben__btn { margin-bottom: 0; }
 
 	footer p { margin: 50px 0 0 0; }
 
