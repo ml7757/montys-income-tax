@@ -2,30 +2,34 @@
 	<div class="location__container">
 		<div class="location__group">
 			<h2><%= data.contact.location.heading %></h2>
-			<div class="location__details">
-				<svg class="icon location__icon">
-					<use xlink:href="#icon-location-pin"></use>
-				</svg>
-				<p>
-					<%= data.contact.location.street %><br>
-					<%= data.contact.location.city_province %><br>
-					<%= data.contact.location.postal_code %>
-				</p>
-			</div>
-			<div class="location__details">
-				<svg class="icon location__icon">
-					<use xlink:href="#icon-old-phone"></use>
-				</svg>
-				<p class="location__number"><%= data.contact.location.phone %></p>
-			</div>
-			<div class="location__details">
-				<svg class="icon location__icon">
-					<use xlink:href="#icon-print"></use>
-				</svg>
-				<p class="location__number"><%= data.contact.location.fax %></p>
+			<div class="location__details--group">
+				<div class="location__details">
+					<svg class="icon location__icon">
+						<use xlink:href="#icon-location-pin"></use>
+					</svg>
+					<div class="location__address">
+						<p><%= data.contact.location.street %></p>
+						<p><%= data.contact.location.city_province %></p>
+						<p><%= data.contact.location.postal_code %></p>
+					</div>
+				</div>
+				<div class="location__details">
+					<svg class="icon location__icon">
+						<use xlink:href="#icon-old-phone"></use>
+					</svg>
+					<p class="location__number"><%= data.contact.location.phone %></p>
+				</div>
+				<div class="location__details">
+					<svg class="icon location__icon">
+						<use xlink:href="#icon-print"></use>
+					</svg>
+					<p class="location__number"><%= data.contact.location.fax %></p>
+				</div>
 			</div>
 		</div>
 		<div class="location__divider"></div>
-		<div id="map"></div>
+		<div class="map__container">
+			<div id="map"></div>
+		</div>
 	</div>
 </section>

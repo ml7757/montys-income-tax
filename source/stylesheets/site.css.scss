@@ -17,6 +17,12 @@ hover colour: #0c7d60
 	box-sizing: border-box;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 html, body {
 	font-family: 'Lato', 'Arial', sans-serif;
 	font-weight: 300;
@@ -477,7 +483,6 @@ header {
 	align-items: center;
 	border: 2px solid #dbdbdb;
 	border-radius: 3%;
-	font-weight: 100;
 }
 
 .team__img {
@@ -498,9 +503,15 @@ header {
 	justify-content: space-around;
 }
 
-#map {
+.map__container {
+  box-sizing: initial;
 	flex: 0 0 60%;
 	height: 500px;
+}
+
+#map {
+	height: 100%;
+	width: auto;
 }
 
 .location__divider {
@@ -509,9 +520,7 @@ header {
 	align-self: center;
 }
 
-.location__group {
-	align-self: flex-start;
-}
+.location__group { align-self: flex-start; }
 
 .location__details {
 	display: flex;
@@ -525,9 +534,7 @@ header {
 	margin-right: 15px;
 }
 
-.location__number {
-	align-self: center;
-}
+.location__number { align-self: center; }
 
 /* --------------------------------------------*/
 /* CONTACT SECTION */

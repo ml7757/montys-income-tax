@@ -13,6 +13,33 @@
 
 	.card__individual.company,
 	.card__individual.team { flex: 0 0 30%; }
+
+	.location__container { flex-direction: column; }
+
+	.location__divider {
+		width: 500px ;
+		height: 0;
+		margin: 50px 0;
+	}
+
+	.location__group {
+		align-self: center;
+		width: 100%;
+	}
+
+	.location__details--group {
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.location__details {
+		flex-direction: column;
+		justify-content: baseline;
+	}
+
+	.location__details .icon { margin-bottom: 10px; }
+
+	.map__container { margin: 0 10%; }
 }
 
 @media only screen and (max-width: 1040px) {
@@ -47,6 +74,11 @@
 	.ben__photo {
 		flex: 0 0 35%;
 		background-position: 45% 50%;
+	}
+
+	.map__container {
+		margin: 0 5%;
+		height: 400px;
 	}
 }
 
@@ -115,12 +147,31 @@
 	.journey__group--four { flex: 0 0 100%; }
 
 	.card__individual { width: 90%;}
+
+	.location__divider { width: 350px; }
 }
 
 @media only screen and (max-width: 470px) {
 	.why__group { width: 85%; }
 
 	.why__section { background-position: 65% 50%;}
+
+	.location__details--group {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.location__details { align-items: center; }
+
+	.location__number { align-self: flex-start; }
+
+	.location__address {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.location__divider { width: 250px; }
 }
 
 @media only screen and (max-width: 425px) {
