@@ -86,13 +86,15 @@
 
 	.card__container {
 		flex-direction: column;
-		margin: 0 10%;
+		align-items: center;
 	}
 
 	.card__individual:nth-child(-n+2) { margin-bottom: 30px; }
 
 	.card__individual.company {
 		background-color: #fff;
+		width: 80%;
+		padding: 0;
 	}
 }
 
@@ -107,14 +109,14 @@
 	.journey__group--two,
 	.journey__group--three,
 	.journey__group--four { flex: 0 0 100%; }
+
+	.card__individual.company { width: 90%;}
 }
 
 @media only screen and (max-width: 470px) {
 	.why__group { width: 85%; }
 
 	.why__section { background-position: 65% 50%;}
-
-	.card__container { margin: 0 5%; }
 }
 
 @media only screen and (max-width: 425px) {

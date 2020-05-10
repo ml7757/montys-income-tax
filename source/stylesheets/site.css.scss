@@ -132,6 +132,7 @@ input[type="submit"]:active { background-color: #0c7d60; }
 
 /* ----- CARD ------ */
 .card__container {
+	width: 100%;
 	display: flex;
 	justify-content: space-around;
 }
