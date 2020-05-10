@@ -40,6 +40,8 @@
 	.location__details .icon { margin-bottom: 10px; }
 
 	.map__container { margin: 0 10%; }
+
+	.form__container { flex: 0 0 60%;}
 }
 
 @media only screen and (max-width: 1040px) {
@@ -80,6 +82,8 @@
 		margin: 0 5%;
 		height: 400px;
 	}
+
+	.form__container { flex: 0 0 75%;}
 }
 
 @media only screen and (max-width: 767px) {
@@ -132,6 +136,17 @@
 	}
 
 	.footer__logo img { height: 100px; }
+
+	.form__group {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.form__group label { margin-bottom: 5px; }
+
+	.form__field { width: 100%; }
+
+	.form__group.hidden { margin-top: 0; }
 }
 
 @media only screen and (max-width: 600px) {
