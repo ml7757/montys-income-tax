@@ -140,6 +140,7 @@ input[type="submit"]:active { background-color: #0c7d60; }
 .card__individual {
 	display: flex;
 	flex-direction: column;
+	flex: 0 0 25%;
 	height: auto;
 	padding: 15px;
 }
@@ -466,7 +467,6 @@ header {
 }
 
 .card__individual.company {
-	flex: 0 0 25%;
 	background-color: #f4f4f4;
 }
 
@@ -474,7 +474,6 @@ header {
 /* TEAM SECTION */
 /* --------------------------------------------*/
 .card__individual.team {
-	flex: 0 0 20%;
 	align-items: center;
 	border: 2px solid #dbdbdb;
 	border-radius: 3%;

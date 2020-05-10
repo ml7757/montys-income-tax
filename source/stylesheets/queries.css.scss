@@ -11,7 +11,8 @@
 
 	.why__group { width: 60%; }
 
-	.card__individual.company { flex: 0 0 30%; }
+	.card__individual.company,
+	.card__individual.team { flex: 0 0 30%; }
 }
 
 @media only screen and (max-width: 1040px) {
@@ -27,9 +28,7 @@
 
 @media only screen and (max-width: 940px) {
 	.btn:link,
-	.btn:visited {
-		padding: 10px 15px;
-	}
+	.btn:visited { padding: 10px 15px; }
 }
 
 @media only screen and (max-width: 860px) {
@@ -65,7 +64,7 @@
 	.nav__items li a:link,
 	.nav__items li a:visited { border: 0; }
 
-	.footer__logo img { height: 100px; }
+	.gen__intro { width: 90%; }
 
 	.svcs__content { flex-wrap: wrap; }
 
@@ -91,11 +90,14 @@
 
 	.card__individual:nth-child(-n+2) { margin-bottom: 30px; }
 
+	.card__individual { width: 80%; }
+
 	.card__individual.company {
 		background-color: #fff;
-		width: 80%;
 		padding: 0;
 	}
+
+	.footer__logo img { height: 100px; }
 }
 
 @media only screen and (max-width: 600px) {
@@ -110,7 +112,7 @@
 	.journey__group--three,
 	.journey__group--four { flex: 0 0 100%; }
 
-	.card__individual.company { width: 90%;}
+	.card__individual { width: 90%;}
 }
 
 @media only screen and (max-width: 470px) {
