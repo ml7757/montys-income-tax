@@ -166,7 +166,10 @@ input[type=submit]:active { background-color: #0c7d60; }
 	margin-top: 15px;
 }
 
-.card__para { margin-bottom: 10px; }
+.card__para {
+	margin-bottom: 10px;
+	max-width: 100%;
+}
 
 .card__list { margin-left: 20px; }
 
