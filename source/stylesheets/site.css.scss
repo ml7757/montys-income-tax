@@ -438,6 +438,7 @@ header {
 	flex-direction: column;
 	flex: 0 0 60%;
 	align-items: center;
+	-ms-flex-preferred-size: auto;
 }
 
 .ben__list p {
