@@ -568,22 +568,12 @@ input[type="text"],
 input[type=email],
 input[type=tel],
 textarea {
-	width: 100%;
-	padding: 10px;
-	border-radius: 3px;
-	border: 1px solid #10ac84;
-	font-family: "lato", "Arial", sans-serif;
-	font-size: 20px;
-}
-
-/* User agent stylesheet override */
-input[type="text"] {
-	width: 100%;
-	padding: 10px;
-	border-radius: 3px;
-	border: 1px solid #10ac84;
-	font-family: "lato", "Arial", sans-serif;
-	font-size: 20px;
+	width: 100% !important;
+	padding: 10px !important;
+	border-radius: 3px !important;
+	border: 1px solid #10ac84 !important;
+	font-family: "lato", "Arial", sans-serif !important;
+	font-size: 20px !important;
 }
 
 .form__submit {
