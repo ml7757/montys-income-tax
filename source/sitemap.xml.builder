@@ -1,12 +1,11 @@
 xml.instruct!
 xml.urlset xmlns: "http://www.sitemaps.org/schemas/sitemap/0.9" do
-  pages = sitemap.resources.select do |page|
-    page.path =~ /\.html/
-  end
-
-  pages.each do |page|
+  sitemap.resources.select { |page| page.destination_path =~ /\.html/ && !(page.destination_path =~ /thank-you/) }.each do |page|
     xml.url do
-      xml.loc URI.join(ENV.fetch("URL"), page.url)
+      xml.loc "https://montysincometax.com#{page.url}"
+      xml.lastmod Date.today.to_time.iso8601
+      xml.changefreq page.data.changefreq || "monthly"
+      xml.priority page.data.priority || "0.5"
     end
   end
 end
