@@ -17,7 +17,7 @@ $(document).ready(function() {
 		$('html, body').animate({scrollTop: $('.js-section-team').offset().top}, 1000);
 	});
 
-	$.get("images/sprite.svg", function(data) {
+	$.get("svg/sprite.svg", function(data) {
 	  var div = document.createElement("div");
 	  div.innerHTML = new XMLSerializer().serializeToString(data.documentElement);
 	  document.body.insertBefore(div, document.body.childNodes[0]);
