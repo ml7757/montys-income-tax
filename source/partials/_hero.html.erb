@@ -7,7 +7,11 @@
 				<h1 class="hero__title--break"><%= break_text %></h1>
 			<% end %>
 			<div class="hero__btns">
-				<%= link_to btn_full, "#", class: "btn btn-full", id: class_full %>
+				<% if locals[:class_full] %>
+					<%= link_to btn_full, "#", class: "btn btn-full", id: class_full %>
+				<% else %>
+					<%= link_to btn_full, "/", class: "btn btn-full" %>
+				<% end %>
 				<% if locals[:btn_clear] %>
 					<%= link_to btn_clear, "#", class: "btn btn-transparent", id: class_clear %>
 				<% end %>

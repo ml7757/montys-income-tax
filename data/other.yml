@@ -11,3 +11,8 @@ nav:
     /about
   link_3: |
     /contact
+
+success:
+  title: Submission received!
+  break_text: We'll be in touch soon...
+  btn_full: Take me home
