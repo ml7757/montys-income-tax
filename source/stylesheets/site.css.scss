@@ -100,8 +100,6 @@ h2::after {
 	margin-bottom: 10px;
 }
 
-.icon.nav { fill: #fff; }
-
 /* ----- BUTTONS ------ */
 .btn:link,
 .btn:visited,
@@ -255,6 +253,8 @@ header {
 .nav__items li a:hover,
 .nav__items li a:active { border-bottom: 2px solid #10ac84; }
 
+.icon.nav { fill: #fff; }
+
 /* --------------------------------------------*/
 /* FOOTER */
 /* --------------------------------------------*/
@@ -293,6 +293,41 @@ header {
 	footer p {
 		margin-right: 10px;
 		color: #888;
+	}
+
+	.footer__credits {
+		display: flex;
+		align-items: center;
+	}
+
+	.icon.camera {
+		fill: #000;
+		height: 16px;
+		width: 16px;
+		margin: 0 5px 0 0;
+	}
+
+	.footer__cred--link:link,
+	.footer__cred--link:visited {
+		display: flex;
+		flex: 0 0 20%;
+		align-items: center;
+		background-color: #fff;
+		padding: 5px;
+		border-radius: 5px;
+		width: 75%;
+		text-decoration: none;
+		transition: background-color 0.2s;
+	}
+
+	.footer__cred--link:hover,
+	.footer__cred--link:active { background-color: #10ac84;}
+
+	.footer__cred--name {
+		font-weight: 700;
+		color: #000;
+		font-size: 70%;
+		margin-right: 0;
 	}
 
 /* --------------------------------------------*/
