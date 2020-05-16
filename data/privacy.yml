@@ -1,3 +1,19 @@
+policy_sub_headings:
+- title: Automatic collection of information
+- title: Collection of personal information
+- title: Storing personal information
+- title: Use and processing of collected information
+- title: The rights of users
+- title: Privacy of children
+- title: Do not track signals
+- title: Link to other websites
+- title: Information security
+- title: Data breach
+- title: Legal disclosure
+- title: Changes and amendments
+- title: Acceptance of this policy
+- title: Contacting us
+
 policy:
   heading: Privacy Policy
   heading_txt_1: |
@@ -15,6 +31,7 @@ policy:
     Personal Information and how you can access and update this information.
     This Policy does not apply to the practices of companies that we do not own
     or control, or to individuals that we do not employ or manage.
+  table_heading: Table of contents
   sub_heading_1: Automatic collection of information
   sub_1_txt: |
     Our top priority is customer data security and, as such, we exercise the no
