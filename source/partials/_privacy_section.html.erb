@@ -10,7 +10,7 @@
 		<h2 class="privacy__heading--sub"><%= data.privacy.policy.table_heading %></h2>
 		<ol class="privacy__list--table">
 			<% data.privacy.policy_sub_headings.each_with_index do |item, x| %>
-				<li><%= link_to item.title, "privacy#sub_heading_#{x}" %></li>
+				<li><%= link_to item.title, "#sub_heading_#{x}" %></li>
 			<% end %>
 		</ol>
 	</div>
