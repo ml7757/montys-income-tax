@@ -148,6 +148,10 @@
 	.form__field { width: 100%; }
 
 	.form__group.hidden { margin-top: 0; }
+
+	.privacy__container { margin: 0 5%; }
+
+	.privacy__list--table a { margin-left: 0; }
 }
 
 @media only screen and (max-width: 600px) {
