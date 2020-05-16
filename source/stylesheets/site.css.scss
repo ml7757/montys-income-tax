@@ -444,7 +444,7 @@ header {
 .journey__content a {
 	text-decoration: none;
 	color: #10ac84;
-	font-weight: 700;
+	font-weight: 600;
 }
 
 /* --------------------------------------------*/
@@ -619,3 +619,37 @@ textarea {
 input[type=submit] { -webkit-appearance: none; }
 
 *:focus {outline: none;}
+
+/* --------------------------------------------*/
+/* PRIVACY */
+/* --------------------------------------------*/
+.privacy__container { margin: 0 10%; }
+
+.privacy__container a {
+	text-decoration: none;
+	color: #10ac84;
+	font-weight: 600;
+}
+
+.privacy__heading--main {
+	color: #000;
+	display: flex;
+	justify-content: center;
+}
+
+.privacy__heading--sub {
+	flex-direction: row;
+	font-weight: 600;
+	font-size: 140%;
+}
+
+.privacy__heading--sub::after { content: none; }
+
+.privacy__content {
+	margin-bottom: 30px;
+	text-align: justify;
+}
+
+.privacy__content.updated { font-weight: 600; }
+
+.privacy__list { margin: 30px 60px; }
