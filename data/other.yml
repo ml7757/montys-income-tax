@@ -5,12 +5,15 @@ nav:
   label_1: Home
   label_2: About
   label_3: Contact
+  label_4: Privacy
   link_1: |
     /
   link_2: |
     /about
   link_3: |
     /contact
+  link_4: |
+    /privacy
 
 success:
   title: Submission received!
