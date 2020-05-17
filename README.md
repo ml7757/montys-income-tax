@@ -5,7 +5,7 @@
 Monty's is an experienced independent income tax preparation service located in Chilliwack, British Columbia, Canada.
 This is a static HTML website generated with [Middleman][middleman-website] and deployed to [Netlify][netlify-website].
 
-![Monty's Homepage](/images/homepage.png)
+![Monty's Homepage](/source/images/homepage.png)
 
 ## Development
 
