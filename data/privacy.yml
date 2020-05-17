@@ -1,18 +1,46 @@
-policy_sub_headings:
+toc_headings:
 - title: Automatic collection of information
+  iden:
+    - tag: "#automatic-collection-of-information"
 - title: Collection of personal information
+  iden:
+    - tag: "#collection-of-personal-informaiton"
 - title: Storing personal information
+  iden:
+    - tag: "#storing-personal-information"
 - title: Use and processing of collected information
+  iden:
+    - tag: "#use-and-processing-of-collectied-information"
 - title: The rights of users
+  iden:
+    - tag: "#the-rights-of-users"
 - title: Privacy of children
+  iden:
+    - tag: "#privacy-of-children"
 - title: Do not track signals
+  iden:
+    - tag: "#do-not-track-signals"
 - title: Link to other websites
+  iden:
+    - tag: "#link-to-other-websites"
 - title: Information security
+  iden:
+    - tag: "#information-security"
 - title: Data breach
+  iden:
+    - tag: "#data-breach"
 - title: Legal disclosure
+  iden:
+    - tag: "#legal-disclosure"
 - title: Changes and amendments
+  iden:
+    - tag: "#changes-and-amendments"
 - title: Acceptance of this policy
+  iden:
+    - tag: "#acceptance-of-this-policy"
 - title: Contacting us
+  iden:
+    - tag: "#contacting-us"
 
 policy:
   heading: Privacy Policy
