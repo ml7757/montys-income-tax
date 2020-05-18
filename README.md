@@ -30,9 +30,14 @@ $ bundle exec middleman
 ```
 - This will start a local web server running at: `http://localhost:4567/`
 
+## Photo Credits
+
+- [StellrWeb][unsplash-credit]
+
 [montys-website]: https://www.montysincometax.com
 [netlify-badge]: https://api.netlify.com/api/v1/badges/47f8e335-cf3e-46c3-b9fe-8f972704fc50/deploy-status
 [netlify-project]: https://app.netlify.com/sites/quizzical-goldwasser-7d53ab/deploys
 [netlify-website]: https://www.netlify.com/
 [middleman-website]: https://middlemanapp.com/
 [ruby-install]: https://www.ruby-lang.org/en/documentation/installation/
+[unsplash-credit]: https://unsplash.com/photos/djb1whucfBY
