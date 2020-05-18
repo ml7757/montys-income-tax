@@ -12,11 +12,11 @@ This is a static HTML website generated with [Middleman][middleman-website] and 
 If, for some kooky reason, you feel the need to run this app locally, the following needs to happen:
 
 - [Install Ruby][ruby-install] if not already installed. 
-- Install Middleman by executing the following from the command line:
+- From the command line install the Middleman gem:
 ```
 $ gem install middleman
 ```
-- Clone the repository:
+- Clone this repository:
 ```
 $ git clone https://github.com/ml7757/montys-income-tax.git
 ```
