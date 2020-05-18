@@ -11,9 +11,9 @@ hero:
 svcs:
   heading: Services Overview
   intro: |
-    Monty's is an experienced independent income tax preparation service, with a
-    team of professionals standing by to assist you or your company in any of
-    the following areas:
+    Monty's is an experienced independent income tax preparation service located
+    in Chilliwack, British Columbia, with a team of professionals standing by to
+    assist you or your company in any of the following areas:
   title_one: Canadian Income Tax
   title_two: U.S.A. Tax Crossover
   title_three: Bookkeeping & Payroll
@@ -72,9 +72,9 @@ benefit:
   heading: The Monty Advantage
   one: Student and senior discounts
   two: |
-    Pickup service for select clients
+    Pickup & drop-off services
   three: Disability Tax assistance
   cta_btn: Contact us for more information
   fine_print: |
-    *For seniors and persons with disabilities. Available upon request within the
+    *Limited to seniors and persons with disabilities. Available upon request within the
     districts of Greater Chilliwack and Sardis only.
