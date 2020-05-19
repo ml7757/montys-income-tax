@@ -1,23 +1,29 @@
-<footer>
-	<div class="footer__text">
+<footer class="footer__container">
+	<div class="footer__left">
 		<ul class="footer__nav">
 			<li><%= link_to data.other.nav.label_1, data.other.nav.link_1 %></li>
 			<li><%= link_to data.other.nav.label_2, data.other.nav.link_2 %></li>
 			<li><%= link_to data.other.nav.label_3, data.other.nav.link_3 %></li>
 			<li><%= link_to data.other.nav.label_4, data.other.nav.link_4 %></li>
 		</ul>
-		<div class="footer__credits">
-			<p><%= data.other.footer.credit_title %></p>
-			<% link_to data.other.footer.credit_link, class: "footer__cred--link", target: "_blank" do %>
-					<svg class="icon camera">
-						<use xlink:href="#icon-camera"></use>
-					</svg>
-					<p class="footer__cred--name"><%= data.other.footer.credit_1 %></p>
+		<p class="footer__copyright"><%= data.other.footer.copyright %> <%= Date.today.year %> <%= data.other.footer.company %></p>
+	</div>
+	<div class="footer__right">
+		<div class="footer__social">
+			<% link_to data.other.footer.fb_link, class: "footer__social--link", target: "_blank" do %>
+				<svg class="icon facebook">
+					<use xlink:href="#icon-facebook"></use>
+				</svg>
 			<% end %>
 		</div>
-		<p><%= data.other.footer.copyright %> <%= Date.today.year %> <%= data.other.footer.company %></p>
-	</div>
-	<div class="footer__logo">
-		<%= image_tag "images/footer_logo.png", alt: "Monty's Income Tax Services secondary logo" %>
+		<div class="footer__credits">
+			<p class="footer__cred--label"><%= data.other.footer.credit_title %></p>
+			<% link_to data.other.footer.credit_link, class: "footer__cred--link", target: "_blank" do %>
+				<svg class="icon camera">
+					<use xlink:href="#icon-camera"></use>
+				</svg>
+				<p class="footer__cred--name"><%= data.other.footer.credit_1 %></p>
+			<% end %>
+		</div>
 	</div>
 </footer>

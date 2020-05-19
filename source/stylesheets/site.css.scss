@@ -261,15 +261,27 @@ header {
 
 	footer {
 		display: flex;
-		justify-content: space-between;
 		background-color: #333;
+		height: 150px;
 		padding: 30px;
 	}
 
-	.footer__text {
+	.footer__container {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.footer__left,
+	.footer__right {
+		flex: 0 0 50%;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
+	}
+
+	.footer__right {
+		flex: 1;
+		align-items: flex-end;
 	}
 
 	.footer__nav {
@@ -290,15 +302,24 @@ header {
 	.footer__nav li a:hover,
 	.footer__nav li a:active { color: #ddd; }
 
-	footer p {
-		margin-right: 10px;
-		color: #888;
-	}
+	footer p { color: #888; }
+
+	.footer__copyright { font-size: 90% }
 
 	.footer__credits {
 		display: flex;
 		align-items: center;
 	}
+
+	.icon.facebook {
+		fill: #888;
+		height: 40px;
+		width: 40px;
+		transition: fill 0.2s;
+	}
+
+	.icon.facebook:hover,
+	.icon.facebook:active { fill: #3a5897;}
 
 	.icon.camera {
 		fill: #000;
@@ -329,6 +350,8 @@ header {
 		font-size: 70%;
 		margin-right: 0;
 	}
+
+	.footer__cred--label { margin-right: 10px; }
 
 /* --------------------------------------------*/
 /* SERVICES OVERVIEW */
