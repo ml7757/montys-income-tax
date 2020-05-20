@@ -136,7 +136,17 @@
 		padding: 0;
 	}
 
-	.footer__logo img { height: 100px; }
+	.footer__upper {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.footer__nav li:nth-child(4) { margin-right: 0; }
+
+	.footer__logo img {
+		height: 100px;
+		margin: 15px 0;
+	}
 
 	.form__group {
 		flex-direction: column;
@@ -227,8 +237,6 @@
 		background-position: 40% 50%;
 		background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/why-us.jpg);
 	}
-
-	footer { padding: 15px; }
 }
 
 @media only screen and (max-width: 340px) {
@@ -253,7 +261,5 @@
 
 	.ben__btn { margin-bottom: 0; }
 
-	footer p { margin: 50px 0 0 0; }
-
-	.footer__logo { display: none; }
+	.footer__lower { align-items: space-between; }
 }
