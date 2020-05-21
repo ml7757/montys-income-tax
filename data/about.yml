@@ -9,40 +9,40 @@ hero:
   class_clear: js-scroll-to-team
 
 
-company:
-  heading: |
-    Our experience
-  intro: |
+about_main: "About Monty's"
+about_intro: |
     Opening our doors in 2003, ​​Monty's Income Tax Services remains a small and
     independent, but highly professional income tax preparation service. Our
     client base has gradually grown over the last two decades primarily driven
     by word of mouth, courtesy of our satisfied clients.
-  card_heading_1: Operating Region
-  card_heading_2: Expertise
-  card_heading_3: Education/Experience
-  card_para_1: |
-    We are located in Chilliwack, BC but also serve clients in:
-  card_para_2: |
-    Monty's specializes in, but not limited to, the following areas:
-  card_para_3: |
-    Our 35 years of collective experience and qualifications include:
-  city_1: Abbotsford
-  city_2: Mission
-  city_3: Sardis
-  city_4: Harrison
-  city_5: Hope
-  expertise_1: |
-    T1 General
-  expertise_2: |
-    T1 adjustments
-  expertise_3: Disability tax benefits
-  expertise_4: Back years taxes
-  expertise_5: Small home based business
-  qual_1: H&R Block
-  qual_2: Tax Service Specialist
-  qual_3: Sage 50 & Quickbooks
-  qual_4: BookKeeper & Profile
-  qual_5: Bachelor of Commerce
+about:
+- heading: Operating Region
+  info:
+    - intro: "We are located in Chilliwack, BC but also serve clients in:"
+      list:
+        - pt: Abbotsford
+        - pt: Mission
+        - pt: Sardis
+        - pt: Harrison
+        - pt: Hope
+- heading: Expertise
+  info:
+    - intro: "Monty's specializes in, but not limited to, the following areas:"
+      list:
+        - pt: "T1 General"
+        - pt: "T1 Adjustments"
+        - pt: Disability tax benefits
+        - pt: Back years taxes
+        - pt: Small home based business
+- heading: Education/Experience
+  info:
+    - intro: "Our 35 years of collective experience and qualifications include:"
+      list:
+        - pt: H&R Block
+        - pt: Tax Service Specialist
+        - pt: Sage 50 & Quickbooks
+        - pt: BookKeeper & Profile
+        - pt: Bachelor of Commerce
 
 team:
   heading: Meet the Team

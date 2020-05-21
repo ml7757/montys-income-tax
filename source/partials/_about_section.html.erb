@@ -1,41 +1,21 @@
 <section class="company__section js-section-experience">
 	<div class="company__intro">
-		<h2><%= data.about.company.heading %></h2>
-		<p class="gen__intro"><%= data.about.company.intro %></p>
+		<h2><%= data.about.about_main %></h2>
+		<p class="gen__intro"><%= data.about.about_intro %></p>
 	</div>
 	<div class="card__container">
-		<div class="card__individual company">
-			<h3 class="card__heading"><%= data.about.company.card_heading_1 %></h3>
-			<p class="card__para"><%= data.about.company.card_para_1 %></p>
-			<ul class="card__list">
-				<li><%= data.about.company.city_1 %></li>
-				<li><%= data.about.company.city_2 %></li>
-				<li><%= data.about.company.city_3 %></li>
-				<li><%= data.about.company.city_4 %></li>
-				<li><%= data.about.company.city_5 %></li>
-			</ul>
-		</div>
-		<div class="card__individual company">
-			<h3 class="card__heading"><%= data.about.company.card_heading_2 %></h3>
-			<p class="card__para"><%= data.about.company.card_para_2 %></p>
-			<ul class="card__list">
-				<li><%= data.about.company.expertise_1 %></li>
-				<li><%= data.about.company.expertise_2 %></li>
-				<li><%= data.about.company.expertise_3 %></li>
-				<li><%= data.about.company.expertise_4 %></li>
-				<li><%= data.about.company.expertise_5 %></li>
-			</ul>
-		</div>
-		<div class="card__individual company">
-			<h3 class="card__heading"><%= data.about.company.card_heading_3 %></h3>
-			<p class="card__para"><%= data.about.company.card_para_3 %></p>
-			<ul class="card__list">
-				<li><%= data.about.company.qual_1 %></li>
-				<li><%= data.about.company.qual_2 %></li>
-				<li><%= data.about.company.qual_3 %></li>
-				<li><%= data.about.company.qual_4 %></li>
-				<li><%= data.about.company.qual_5 %></li>
-			</ul>
-		</div>
+		<% data.about.about.each do |a| %>
+			<% a.info.each do |i| %>
+				<div class="card__individual company">
+					<h3 class="card__heading"><%= a.heading %></h3>
+					<p class="card__para"><%= i.intro %></p>
+					<% i.list.each do |l| %>
+						<ul class="card__list">
+							<li><%= l.pt %></li>
+						</ul>
+					<% end %>
+				</div>
+			<% end %>
+		<% end %>
 	</div>
 </section>
