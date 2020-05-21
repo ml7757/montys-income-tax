@@ -301,7 +301,10 @@ header {
 		align-items: center;
 	}
 
-	.footer__social--link:nth-child(1) { margin-right: 10px; }
+	.footer__social--link:nth-child(1) {
+		margin-right: 10px;
+		text-decoration: none;
+	}
 
 	.icon.social {
 		fill: #888;
