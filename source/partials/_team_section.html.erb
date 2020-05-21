@@ -1,25 +1,18 @@
 <section class="team__section js-section-team">
 	<div class="team__heading">
-		<h2><%= data.about.team.heading %></h2>
+		<h2><%= data.about.team_main %></h2>
 	</div>
 	<div class="card__container">
-		<div class="card__individual team">
-			<%= image_tag 'images/lona.jpg', alt: "Owner, operator, and partner, Lona", class: "team__img" %>
-			<h3 class="card__heading team"><%= data.about.team.member_1 %></h3>
-			<p class="card__para"><%= data.about.team.lona_disc_1 %></p>
-			<p class="card__para"><%= data.about.team.lona_disc_2 %></p>
-		</div>
-		<div class="card__individual team">
-			<%= image_tag 'images/monty_dog.jpg', alt: "Monty the dog, namesake of the business", class: "team__img" %>
-			<h3 class="card__heading team"><%= data.about.team.member_2 %></h3>
-			<p class="card__para"><%= data.about.team.monty_disc_1 %></p>
-			<p class="card__para"><%= data.about.team.monty_disc_2 %></p>
-		</div>
-		<div class="card__individual team">
-			<%= image_tag 'images/bruce.jpg', alt: "Owner, operator, and partner, Bruce", class: "team__img" %>
-			<h3 class="card__heading team"><%= data.about.team.member_3 %></h3>
-			<p class="card__para"><%= data.about.team.bruce_disc_1 %></p>
-			<p class="card__para"><%= data.about.team.bruce_disc_2 %></p>
-		</div>
+		<% data.about.team.each do |t| %>
+			<% t.member.each do |m| %>
+				<div class="card__individual team">
+					<%= image_tag t.img, alt: "Owner, operator, and partner, Lona", class: "team__img" %>
+					<h3 class="card__heading team"><%= m.name %></h3>
+					<% m.info.each do |i| %>
+						<p class="card__para"><%= i.desc %></p>
+					<% end %>
+				</div>
+			<% end %>
+		<% end %>
 	</div>
 </section>
