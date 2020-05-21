@@ -296,11 +296,14 @@ header {
 	.footer__nav li a:hover,
 	.footer__nav li a:active { color: #ddd; }
 
-	.footer__lower--right { display: flex; }
+	.footer__lower--right {
+		display: flex;
+		align-items: center;
+	}
 
-	.footer__social--link { align-self: center; }
+	.footer__social--link:nth-child(1) { margin-right: 10px; }
 
-	.icon.facebook {
+	.icon.social {
 		fill: #888;
 		height: 32px;
 		width: 32px;
@@ -308,8 +311,8 @@ header {
 		margin-bottom: 0;
 	}
 
-	.icon.facebook:hover,
-	.icon.facebook:active { fill: #10ac84; }
+	.icon.social:hover,
+	.icon.social:active { fill: #10ac84; }
 
 	.footer__divider {
 		border: 0.5px solid #888;

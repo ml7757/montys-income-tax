@@ -237,6 +237,18 @@
 	}
 }
 
+@media only screen and (max-width: 400px) {
+	.footer__lower { flex-direction: column; }
+
+	.footer__divider {
+		height: 0;
+		width: 100px;
+		margin: 15px 0;
+	}
+
+	.footer__lower--right { flex-direction: column; }
+}
+
 @media only screen and (max-width: 340px) {
 	.hero__btns {
 		display: flex;
@@ -258,6 +270,4 @@
 	.ben__print { margin-top: 30px; }
 
 	.ben__btn { margin-bottom: 0; }
-
-	.footer__lower { align-items: space-between; }
 }

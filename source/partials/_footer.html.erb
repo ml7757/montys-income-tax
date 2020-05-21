@@ -25,11 +25,18 @@
 		</div>
 		<div class="footer__lower--right">
 			<div class="footer__divider"></div>
-			<% link_to data.other.footer.fb_link, class: "footer__social--link", target: "_blank" do %>
-				<svg class="icon facebook">
-					<use xlink:href="#icon-facebook"></use>
-				</svg>
-			<% end %>
+			<div class="footer__social--icons">
+				<% link_to data.other.footer.fb_link, class: "footer__social--link", target: "_blank" do %>
+					<svg class="icon social">
+						<use xlink:href="#icon-facebook"></use>
+					</svg>
+				<% end %>
+				<% link_to data.other.footer.yelp_link, class: "footer__social--link", target: "_blank" do %>
+					<svg class="icon social">
+						<use xlink:href="#icon-yelp"></use>
+					</svg>
+				<% end %>
+			</div>
 		</div>
 	</div>
 </footer>
