@@ -1,44 +1,26 @@
 <section class="why__section">
 	<div class="why__container">
 		<div class="why__group">
-			<h2 class="why__heading"><%= data.home.why.heading %></h2>
+			<h2 class="why__heading"><%= data.home.why_main %></h2>
 			<div class="why__content">
-				<div class="why__reason">
-					<div class="why__icon">
-						<svg class="icon">
-							<use xlink:href="#icon-check"></use>
-						</svg>
-					</div>
-					<div class="why__explanation">
-						<p class="why__sub"><%= data.home.why.sub_one %></p>
-						<p class="why__info"><%= data.home.why.info_one %></p>
-					</div>
-				</div>
-				<div class="why__reason">
-					<div class="why__icon">
-						<svg class="icon">
-							<use xlink:href="#icon-check"></use>
-						</svg>
-					</div>
-					<div class="why__explanation">
-						<p class="why__sub"><%= data.home.why.sub_two %></p>
-						<p class="why__info"><%= data.home.why.info_two %></p>
-					</div>
-				</div>
-				<div class="why__reason">
-					<div class="why__icon">
-						<svg class="icon">
-							<use xlink:href="#icon-check"></use>
-						</svg>
-					</div>
-					<div class="why__explanation">
-						<p class="why__sub"><%= data.home.why.sub_three %></p>
-						<p class="why__info"><%= data.home.why.info_three %></p>
-					</div>
-				</div>
+				<% data.home.why.each do |w| %>
+					<% w.reason.each do |r| %>
+						<div class="why__reason">
+							<div class="why__icon">
+								<svg class="icon">
+									<use xlink:href="#icon-check"></use>
+								</svg>
+							</div>
+							<div class="why__explanation">
+								<p class="why__sub"><%= w.heading %></p>
+								<p class="why__info"><%= r.info %></p>
+							</div>
+						</div>
+					<% end %>
+				<% end %>
 			</div>
 			<div class="why__btn">
-				<%= link_to data.home.why.btn, data.other.nav.link_2, class: "btn btn-full" %>
+				<%= link_to data.home.why_btn, data.other.nav.link_2, class: "btn btn-full" %>
 			</div>
 		</div>
 	</div>

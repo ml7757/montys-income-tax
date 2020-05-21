@@ -30,21 +30,21 @@ svcs:
   desc_four: |
     Administration and oversight of Employee Benefit Plans for your company.
 
+why_main: Why Trust Monty's?
 why:
-  heading: Why Trust Monty's?
-  sub_one: 35 years of collective experience
-  sub_two: Client returns before corporate profitability
-  sub_three: Support whenever you need it
-  info_one: |
-    We know the ins-and-outs of Canadian taxes, and our growing base of
-    satisfied clients think we do as well.
-  info_two: |
-    The potential of every tax return is maximized against the latest benefits
-    and tax considerations, regardless of time and effort.
-  info_three: |
-    Help isn't bound to the tax season only. Baffled by wordy documentation?
-    Upcoming audit with the CRA? We can be there to assist you.
-  btn: More About Us
+- heading: 35 years of collective experience
+  reason:
+    - info: "We know the ins-and-outs of Canadian taxes, and our growing base of
+      satisfied clients think we do as well."
+- heading: Client returns before corporate profitability
+  reason:
+    - info: "The potential of every tax return is maximized against the latest benefits
+      and tax considerations, regardless of time and effort."
+- heading: Support whenever you need it
+  reason:
+    - info: "Help isn't bound to the tax season only. Baffled by wordy documentation?
+      Upcoming audit with the CRA? We can be there to assist you."
+why_btn: More About Us
 
 journey:
   heading: Maximize your Returns
