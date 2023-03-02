@@ -231,11 +231,25 @@ header {
 	font-weight: 700;
 	margin-bottom: 5px;
 }
+.ukraine__group {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.ukraine__text {
+	color: #ffffff;
+	font-size: 18px;
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 
 .nav__items {
 	display: flex;
 	flex: 0 0 30%;
-	justify-content: space-between;
+	justify-content: space-around;
 	list-style: none;
 }
 
