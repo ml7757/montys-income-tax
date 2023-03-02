@@ -85,6 +85,7 @@
 }
 
 @media only screen and (max-width: 767px) {
+	.ukraine__group { padding-top: 10px; }
 	.nav__items { display: none; }
 
 	.nav__bar { align-items: flex-start; }
@@ -240,6 +241,8 @@
 }
 
 @media only screen and (max-width: 400px) {
+	.ukraine__text { font-size: 13px; }
+
 	.footer__lower { flex-direction: column; }
 
 	.footer__divider {
