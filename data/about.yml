@@ -2,7 +2,7 @@ hero:
   img: |
     ../images/about-hero.jpg
   title: Serving the Fraser Valley's tax needs,
-  break_text: for nearly two decades
+  break_text: for more than two decades
   btn_full: Our experience
   class_full: js-scroll-to-experience
   btn_clear: Meet the team
@@ -11,7 +11,7 @@ hero:
 
 about_main: "About Monty's"
 about_intro: |
-    Opening our doors in 2003, ​​Monty's Income Tax Services remains a small and
+    Opening our doors in 2001, ​​Monty's Income Tax Services remains a small and
     independent, but highly professional income tax preparation service. Our
     client base has gradually grown over the last two decades primarily driven
     by word of mouth, courtesy of our satisfied clients.
@@ -36,7 +36,7 @@ about:
         - pt: Small home based business
 - heading: Education/Experience
   info:
-    - intro: "Our 35 years of collective experience and qualifications include:"
+    - intro: "Our 46 years of collective experience and qualifications include:"
       list:
         - pt: H&R Block
         - pt: Tax Service Specialist
