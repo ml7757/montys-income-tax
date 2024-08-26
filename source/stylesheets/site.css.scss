@@ -231,20 +231,6 @@ header {
 	font-weight: 700;
 	margin-bottom: 5px;
 }
-.ukraine__group {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-.ukraine__text {
-	color: #ffffff;
-	font-size: 18px;
-	margin-top: 10px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
 
 .nav__items {
 	display: flex;
@@ -270,11 +256,41 @@ header {
 .icon.nav { fill: #fff; }
 
 /* --------------------------------------------*/
+/* UKRAINE */
+/* --------------------------------------------*/
+.ukraine__container {
+	opacity: 0.80;
+	width: 100%;
+	display: flex;
+}
+
+.ukraine__element {
+	width: 50%;
+	padding: .2rem;
+}
+
+.ukraine__text { font-weight: bold; }
+
+.ukraine--blue {
+	background-color: #005BBB;
+	color: #FFD500;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.ukraine--yellow {
+	background-color: #FFD500;
+	color: #005BBB;
+}
+
+
+/* --------------------------------------------*/
 /* TICKER TAPE */
 /* --------------------------------------------*/
 
 .ticker-tape__container {
 	background-color: #DB5461;
+	opacity: 0.90;
 	padding: .3rem;
   overflow-x: hidden;
   display: flex;
