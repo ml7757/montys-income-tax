@@ -185,7 +185,7 @@ header {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	height: 100vh;
+	height: 80vh;
 }
 
 .hero__group {
@@ -231,20 +231,6 @@ header {
 	font-weight: 700;
 	margin-bottom: 5px;
 }
-.ukraine__group {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-.ukraine__text {
-	color: #ffffff;
-	font-size: 18px;
-	margin-top: 10px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
 
 .nav__items {
 	display: flex;
@@ -268,6 +254,72 @@ header {
 .nav__items li a:active { border-bottom: 2px solid #10ac84; }
 
 .icon.nav { fill: #fff; }
+
+/* --------------------------------------------*/
+/* UKRAINE */
+/* --------------------------------------------*/
+.ukraine__container {
+	opacity: 0.80;
+	width: 100%;
+	display: flex;
+}
+
+.ukraine__element {
+	width: 50%;
+	padding: .2rem;
+}
+
+.ukraine__text { font-weight: bold; }
+
+.ukraine--blue {
+	background-color: #005BBB;
+	color: #FFD500;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.ukraine--yellow {
+	background-color: #FFD500;
+	color: #005BBB;
+}
+
+
+/* --------------------------------------------*/
+/* TICKER TAPE */
+/* --------------------------------------------*/
+
+.ticker-tape__container {
+	background-color: #0c7d60;
+	opacity: 0.90;
+	padding: .3rem;
+  overflow-x: hidden;
+  display: flex;
+}
+.ticker-tape__group {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+	animation: marquee 30s linear 0s infinite normal running;
+}
+
+.ticker-tape__text {
+	font-weight: bold;
+	color: #FFF;
+}
+
+.ticker-tape__ghost {
+	@extend .ticker-tape__text;
+	color: #0c7d60;
+}
+
+@keyframes marquee {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(-100%);
+	}
+}
 
 /* --------------------------------------------*/
 /* FOOTER */

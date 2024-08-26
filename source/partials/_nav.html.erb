@@ -1,3 +1,4 @@
+<%= partial "partials/ukraine" %>
 <nav style="background-color: <%= colour %>" class="nav__bar">
 	<div class="nav__logo">
 		<% link_to "/index.html", class: "logo__group" do %>
@@ -8,16 +9,6 @@
 				<li><%= data.other.nav.logo_text_3 %></li>
 			</ul>
 		<% end %>
-	</div>
-	<div class="ukraine__group">
-		<div class="ukraine__flag">
-			<%= partial "partials/svg/ukraine_flag" %>
-		</div>
-		<p class="ukraine__text">
-			<span>Monty's stands with Ukraine</span>
-			<span>and its people.</span>
-		</p>
-
 	</div>
 	<ul class="nav__items js-main-nav">
 		<li><%= link_to data.other.nav.label_1, data.other.nav.link_1 %></li>
@@ -30,3 +21,4 @@
 		</svg>
 	<% end %>
 </nav>
+<%= partial "partials/ticker_tape" %>
