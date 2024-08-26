@@ -289,7 +289,7 @@ header {
 /* --------------------------------------------*/
 
 .ticker-tape__container {
-	background-color: #DB5461;
+	background-color: #0c7d60;
 	opacity: 0.90;
 	padding: .3rem;
   overflow-x: hidden;
@@ -309,7 +309,7 @@ header {
 
 .ticker-tape__ghost {
 	@extend .ticker-tape__text;
-	color: #DB5461;
+	color: #0c7d60;
 }
 
 @keyframes marquee {
