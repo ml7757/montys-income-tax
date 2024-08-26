@@ -185,7 +185,7 @@ header {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	height: 100vh;
+	height: 80vh;
 }
 
 .hero__group {
@@ -268,6 +268,43 @@ header {
 .nav__items li a:active { border-bottom: 2px solid #10ac84; }
 
 .icon.nav { fill: #fff; }
+
+/* --------------------------------------------*/
+/* TICKER TAPE */
+/* --------------------------------------------*/
+
+.ticker-tape-container {
+  overflow-x: hidden;
+  display: flex;
+}
+.ticker-tape {
+  display: flex;
+  gap: 1rem;
+  margin-right: 5rem;
+  flex: 0 0 auto;
+  align-items: center;
+	animation: marquee 30s linear 0s infinite normal running;
+}
+
+.ticker-tape-ghost {
+	color: lightblue;
+}
+
+@keyframes marquee {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(-100%);
+	}
+}
+
+.basic-styling {
+  background-color: lightblue;
+  padding: 1rem;
+  color: #010101;
+  width: 100%;
+}
 
 /* --------------------------------------------*/
 /* FOOTER */
