@@ -273,21 +273,27 @@ header {
 /* TICKER TAPE */
 /* --------------------------------------------*/
 
-.ticker-tape-container {
+.ticker-tape__container {
+	background-color: #DB5461;
+	padding: .3rem;
   overflow-x: hidden;
   display: flex;
 }
-.ticker-tape {
+.ticker-tape__group {
   display: flex;
-  gap: 1rem;
-  margin-right: 5rem;
   flex: 0 0 auto;
   align-items: center;
 	animation: marquee 30s linear 0s infinite normal running;
 }
 
-.ticker-tape-ghost {
-	color: lightblue;
+.ticker-tape__text {
+	font-weight: bold;
+	color: #FFF;
+}
+
+.ticker-tape__ghost {
+	@extend .ticker-tape__text;
+	color: #DB5461;
 }
 
 @keyframes marquee {
@@ -297,13 +303,6 @@ header {
 	100% {
 		transform: translateX(-100%);
 	}
-}
-
-.basic-styling {
-  background-color: lightblue;
-  padding: 1rem;
-  color: #010101;
-  width: 100%;
 }
 
 /* --------------------------------------------*/
