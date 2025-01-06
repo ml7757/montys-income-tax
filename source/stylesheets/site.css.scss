@@ -302,10 +302,7 @@ header {
 	animation: marquee 30s linear 0s infinite normal running;
 }
 
-.ticker-tape__text {
-	font-weight: bold;
-	color: #FFF;
-}
+.ticker-tape__text { color: #FFF; }
 
 .ticker-tape__ghost {
 	@extend .ticker-tape__text;
@@ -313,12 +310,9 @@ header {
 }
 
 @keyframes marquee {
-	0% {
-		transform: translateX(0);
-	}
-	100% {
-		transform: translateX(-100%);
-	}
+	0% { transform: translateX(0); }
+
+	100% { transform: translateX(-100%); }
 }
 
 /* --------------------------------------------*/
