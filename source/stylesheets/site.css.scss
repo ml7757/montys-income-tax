@@ -292,14 +292,14 @@ header {
 	background-color: #0c7d60;
 	opacity: 0.90;
 	padding: .3rem;
-  overflow-x: hidden;
-  display: flex;
+	overflow-x: hidden;
+	display: flex;
 }
 .ticker-tape__group {
   display: flex;
   flex: 0 0 auto;
   align-items: center;
-	animation: marquee 30s linear 0s infinite normal running;
+  animation: marquee 45s linear 0s infinite normal running;
 }
 
 .ticker-tape__text { color: #FFF; }
