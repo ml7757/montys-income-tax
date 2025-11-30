@@ -10,6 +10,9 @@ gem 'middleman-sprockets', '~> 4.1', '>= 4.1.1'
 gem 'builder', '~> 3.2', '>= 3.2.2'
 gem "webrick", ">= 1.8.2"
 gem 'rexml', '~> 3.2', '>= 3.2.4'
+gem 'base64', '~> 0.3.0'
+gem 'bigdecimal', '~> 3.3', '>= 3.3.1'
+gem 'mutex_m', '~> 0.3.0'
 
 source "https://rails-assets.org" do
   gem 'rails-assets-jquery'

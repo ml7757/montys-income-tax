@@ -17,6 +17,8 @@ GEM
     autoprefixer-rails (10.4.19.0)
       execjs (~> 2)
     backports (3.25.0)
+    base64 (0.3.0)
+    bigdecimal (3.3.1)
     builder (3.3.0)
     coffee-script (2.4.1)
       coffee-script-source
@@ -94,6 +96,7 @@ GEM
       middleman-core (~> 4.0)
       sprockets (>= 3.0)
     minitest (5.25.1)
+    mutex_m (0.3.0)
     padrino-helpers (0.15.3)
       i18n (>= 0.6.7, < 2)
       padrino-support (= 0.15.3)
@@ -133,12 +136,15 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  base64 (~> 0.3.0)
+  bigdecimal (~> 3.3, >= 3.3.1)
   builder (~> 3.2, >= 3.2.2)
   bundler (~> 2.4, >= 2.4.22)
   middleman (~> 4.5, >= 4.5.1)
   middleman-autoprefixer
   middleman-livereload
   middleman-sprockets (~> 4.1, >= 4.1.1)
+  mutex_m (~> 0.3.0)
   rails-assets-jquery!
   rexml (~> 3.2, >= 3.2.4)
   tzinfo-data
