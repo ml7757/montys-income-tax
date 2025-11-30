@@ -35,7 +35,12 @@
 
 	.location__details .icon { margin-bottom: 10px; }
 
-	.map__container { margin: 0 10%; }
+	.map__container { 
+		flex: none;
+		align-self: center;
+		width: 80%;
+		margin-top: 30px;
+	}
 
 	.form__container { flex: 0 0 60%;}
 }
@@ -76,10 +81,7 @@
 		background-position: 45% 50%;
 	}
 
-	.map__container {
-		margin: 0 5%;
-		height: 400px;
-	}
+	.map__container { height: 400px; }
 
 	.form__container { flex: 0 0 75%;}
 }
@@ -138,6 +140,8 @@
 		background-color: #fff;
 		padding: 0;
 	}
+
+	.location__details--group { width: 80%; }
 
 	.footer__upper {
 		flex-direction: column;
@@ -206,8 +210,7 @@
 
 	.why__section { background-position: 65% 50%;}
 
-
-	.location__details { align-items: baseline; }
+	.location__details--group { width: 90%; }
 
 	.location__number { align-self: baseline; }
 
@@ -216,6 +219,8 @@
 		flex-direction: column;
 		align-items: baseline;
 	}
+
+	.map__container { width: 90%; }
 
 	footer { padding: 15px;}
 }

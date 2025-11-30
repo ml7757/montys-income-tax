@@ -17,7 +17,10 @@
 					<svg class="icon location__icon">
 						<use xlink:href="#icon-old-phone"></use>
 					</svg>
-					<p class="location__number"><%= data.contact.location.phone %></p>
+					<p class="location__number">
+					<%= data.contact.location.phone %>
+					<span class="location__number--footnote">*</span>
+					</p>
 				</div>
 				<div class="location__details">
 					<svg class="icon location__icon">
@@ -26,7 +29,8 @@
 					<p class="location__number"><%= data.contact.location.fax %></p>
 				</div>
 				<div class="location__footnote">
-					<span class="location__footnote--emphasis">*Landline only:</span> please contact us directly for alternative means of communication.
+					<span class="location__footnote--asterisk">*</span>Analog <span class="location__footnote--emphasis">Landline:</span>
+					Do not text. Please contact us directly for alternative means of communication.
 				</div>
 			</div>
 		</div>
