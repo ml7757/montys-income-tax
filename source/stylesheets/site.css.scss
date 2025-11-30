@@ -444,7 +444,7 @@ header {
 .svcs__offer { width: 20%; }
 
 .svcs__nomore {
-	background-color: rgba(255, 0, 0, 0.32);
+	background-color: rgba(244, 244, 244, .6);
 	text-align: center;
 	padding: 30px;
 	margin: 20px 20px 0 20px;
@@ -645,19 +645,13 @@ header {
 
 .map__container {
   box-sizing: initial;
-	flex: 0 0 60%;
+	flex: 0 0 55%;
 	height: 500px;
 }
 
 #map {
 	height: 100%;
 	width: auto;
-}
-
-.location__divider {
-	border: 1px solid #dbdbdb;
-	height: 400px;
-	align-self: center;
 }
 
 .location__group {
@@ -685,12 +679,26 @@ header {
 
 .location__number { align-self: center; }
 
+.location__number--footnote {
+	font-size: 30px;
+	font-weight: 600;
+	color: #DA2C38;
+}
+
 .location__footnote {
 	font-size: 13px;
+	background-color: rgba(218, 44, 56, .3);
+	padding: 10px;
 	margin-top: 20px;
 }
 
 .location__footnote--emphasis { font-weight: 600; }
+
+.location__footnote--asterisk { 
+	font-size: 18px;
+	font-weight: 600;
+	color: #DA2C38;
+}
 
 /* --------------------------------------------*/
 /* CONTACT SECTION */
