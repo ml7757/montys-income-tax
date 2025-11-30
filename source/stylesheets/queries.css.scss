@@ -24,8 +24,8 @@
 	}
 
 	.location__details--group {
-		display: flex;
-		justify-content: space-around;
+		width: 50%;
+		align-items: flex-start;
 	}
 
 	.location__details {
@@ -206,22 +206,16 @@
 
 	.why__section { background-position: 65% 50%;}
 
-	.location__details--group {
-		flex-direction: column;
-		align-items: center;
-	}
 
-	.location__details { align-items: center; }
+	.location__details { align-items: baseline; }
 
-	.location__number { align-self: flex-start; }
+	.location__number { align-self: baseline; }
 
 	.location__address {
 		display: flex;
 		flex-direction: column;
-		align-items: center;
+		align-items: baseline;
 	}
-
-	.location__divider { width: 250px; }
 
 	footer { padding: 15px;}
 }

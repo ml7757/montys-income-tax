@@ -653,8 +653,17 @@ header {
 	align-self: center;
 }
 
-.location__group { align-self: flex-start; }
+.location__group {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 
+.location__details--group {
+	width: 75%;
+	display: flex;
+	flex-direction: column;
+}
 .location__details {
 	display: flex;
 	margin-top: 20px;
@@ -668,6 +677,13 @@ header {
 }
 
 .location__number { align-self: center; }
+
+.location__footnote {
+	font-size: 13px;
+	margin-top: 20px;
+}
+
+.location__footnote--emphasis { font-weight: 600; }
 
 /* --------------------------------------------*/
 /* CONTACT SECTION */
