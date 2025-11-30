@@ -443,6 +443,13 @@ header {
 
 .svcs__offer { width: 20%; }
 
+.svcs__nomore {
+	background-color: rgba(255, 0, 0, 0.32);
+	text-align: center;
+	padding: 30px;
+	margin: 20px 20px 0 20px;
+}
+
 /* --------------------------------------------*/
 /* WHY US SECTION */
 /* --------------------------------------------*/
@@ -653,8 +660,17 @@ header {
 	align-self: center;
 }
 
-.location__group { align-self: flex-start; }
+.location__group {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 
+.location__details--group {
+	width: 75%;
+	display: flex;
+	flex-direction: column;
+}
 .location__details {
 	display: flex;
 	margin-top: 20px;
@@ -668,6 +684,13 @@ header {
 }
 
 .location__number { align-self: center; }
+
+.location__footnote {
+	font-size: 13px;
+	margin-top: 20px;
+}
+
+.location__footnote--emphasis { font-weight: 600; }
 
 /* --------------------------------------------*/
 /* CONTACT SECTION */

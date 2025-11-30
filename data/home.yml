@@ -19,10 +19,10 @@ svcs:
   title_three: Bookkeeping & Payroll
   title_four: Employee Benefit Plans
   desc_one: |
-    T1 - T2042 - T2125 - T2200 - T2202 - T776 - T777 - TL2, general filing,
+    T1 - T2042 - T2125 - T2200 - T2202 - T2222 - T776 - T777 - TL2 - T1032, general filing,
     multiple back years, and adjustments.
   desc_two: |
-    Ownership or sales of US property over $100,000, and 1042-S U.S Social
+    Ownership or sales of US property over $100,000, and 1042-S Source Income U.S. Social
     Security Pensions.
   desc_three: |
     Home based business full cycle bookkeeping and payroll services, including
@@ -32,7 +32,7 @@ svcs:
 
 why_main: Why Trust Monty's?
 why:
-- heading: 46 years of collective experience
+- heading: 48 years of collective experience
   reason:
     - info: "We know the ins-and-outs of Canadian taxes, and our growing base of
       satisfied clients think we do as well."
